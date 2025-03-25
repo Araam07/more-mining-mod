@@ -12,7 +12,7 @@
           "src/main/resources/assets/more_mining/models/item/deep_sea_crystal.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "InfernalIron",
@@ -26,7 +26,7 @@
           "src/main/resources/assets/more_mining/models/item/infernal_iron_ingot.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "EtherShard",
@@ -40,7 +40,7 @@
           "src/main/java/mine/moremining/item/EtherShardItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "DeepSeaVein",
@@ -94,7 +94,7 @@
           "src/main/resources/assets/more_mining/models/item/raw_infernal_iron.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "EtherVein",
@@ -237,7 +237,7 @@
           "src/main/resources/assets/more_mining/models/item/luminiscent_crystal.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "LuminiscenceVein",
@@ -355,7 +355,7 @@
           "src/main/java/mine/moremining/item/LithiumItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "LithiumOre",
@@ -896,7 +896,7 @@
           "src/main/java/mine/moremining/item/NoxiumIngotItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "NoxiumOre",
@@ -917,6 +917,37 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "NoxiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_chestplate.json",
+          "src/main/java/mine/moremining/item/NoxiumArmorItem.java",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_helmet.json",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_leggings.json",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_boots.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "NoxiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/NoxiumPickaxeItem.java",
+          "src/main/resources/assets/more_mining/models/item/noxium_pickaxe.json"
+        ]
+      },
+      "path": "~/tools"
     }
   ],
   "variable_elements": [
@@ -1075,6 +1106,9 @@
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:DeepSeaVein"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NoxiumPickaxe"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:CompressedStone"
     ]
@@ -1082,59 +1116,60 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.more_mining.deep_sea_vein": "Deep Sea Vein",
-      "block.more_mining.lithium_ore": "Lithium Ore",
+      "item.more_mining.noxium_armor_chestplate": "Noxium Chestplate",
       "subtitles.sinister-ambient": "Sinister ambient",
-      "item.more_mining.deep_skeleton_spawn_egg": "Deep Skeleton Spawn Egg",
       "subtitles.cave-taps": "",
       "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
       "subtitles.seeker-sounds": "",
-      "block.more_mining.ether_vein": "Ether Vein",
       "biome.more_mining.deeper_layer_b": "DeeperZone",
       "block.more_mining.noxium_ore": "Noxium Ore",
-      "item.more_mining.dead_miner_spawn_egg": "Dead Miner Spawn Egg",
+      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
       "item.more_mining.lithium_battery": "Lithium Battery",
-      "item.more_mining.noxium_ingot": "Noxium Ingot",
-      "subtitles.sinister-sounds": "",
       "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
-      "entity.more_mining.deep_skeleton": "Deep Skeleton",
-      "biome.more_mining.deeper_layer": "Deeper Layer",
       "item.more_mining.ether_shard": "Ether Shard",
-      "block.more_mining.infernal_iron_ore": "Infernal Iron Ore",
-      "block.more_mining.compressed_stone": "Compressed Stone",
+      "item.more_mining.noxium_armor_leggings": "Noxium Leggings",
       "item.more_mining.lithium": "Lithium",
-      "subtitles.boo-and-laugh": "",
       "entity.more_mining.stone_golem": "Stone Golem",
-      "subtitles.seeker-step": "",
       "item.more_mining.stone_golem_spawn_egg": "Stone Golem Spawn Egg",
-      "item.more_mining.seeker_spawn_egg": "Seeker Spawn Egg",
       "subtitles.old-mine-ambience": "",
       "item.more_mining.second_layer": "Second Layer Portal Igniter",
-      "item.more_mining.raw_infernal_iron": "Raw Infernal Iron",
+      "item.more_mining.noxium_armor_boots": "Noxium Boots",
       "item.more_mining.deeper_layer": "First Layer Portal Igniter",
-      "subtitles.waterdrops-cave-echo": "",
-      "item.more_mining.deep_sea_crystal": "Deep Sea Crystal",
       "item.more_mining.lithium.description_0": "A mineral that stores energy and is used to create batteries and technological items.",
       "block.more_mining.luminiscence_vein": "Luminiscence Vein",
       "item.more_mining.infernal_iron_ingot": "Infernal Iron",
-      "item.more_mining.luminiscent_crystal.description_0": "Makes the darknes a little darkless",
-      "item.more_mining.lithium_drill": "Lithium Drill",
       "entity.more_mining.dead_miner": "Dead Miner",
       "subtitles.sinister-piano": "",
+      "subtitles.deep-cave": "",
+      "item.more_mining.noxium_armor_helmet": "Noxium Helmet",
+      "item.more_mining.night_vision_glasses_helmet": "Primitive Night Vision Glases",
+      "block.more_mining.deep_sea_vein": "Deep Sea Vein",
+      "block.more_mining.lithium_ore": "Lithium Ore",
+      "item.more_mining.deep_skeleton_spawn_egg": "Deep Skeleton Spawn Egg",
+      "block.more_mining.ether_vein": "Ether Vein",
+      "item.more_mining.dead_miner_spawn_egg": "Dead Miner Spawn Egg",
+      "item.more_mining.noxium_ingot": "Noxium Ingot",
+      "subtitles.sinister-sounds": "",
+      "entity.more_mining.deep_skeleton": "Deep Skeleton",
+      "biome.more_mining.deeper_layer": "Deeper Layer",
+      "block.more_mining.compressed_stone": "Compressed Stone",
+      "block.more_mining.infernal_iron_ore": "Infernal Iron Ore",
+      "subtitles.boo-and-laugh": "",
+      "subtitles.seeker-step": "",
+      "item.more_mining.seeker_spawn_egg": "Seeker Spawn Egg",
+      "item.more_mining.raw_infernal_iron": "Raw Infernal Iron",
+      "subtitles.waterdrops-cave-echo": "",
+      "item.more_mining.deep_sea_crystal": "Deep Sea Crystal",
+      "item.more_mining.luminiscent_crystal.description_0": "Makes the darknes a little darkless",
+      "item.more_mining.lithium_drill": "Lithium Drill",
       "entity.more_mining.seeker": "Seeker",
       "item.more_mining.luminiscent_crystal": "Luminiscent Crystal",
-      "subtitles.stone-things": "",
-      "subtitles.deep-cave": "",
-      "item.more_mining.night_vision_glasses_helmet": "Primitive Night Vision Glases"
+      "subtitles.stone-things": ""
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "materials",
-        "children": []
-      },
       {
         "name": "blocks",
         "children": []

@@ -146,7 +146,7 @@ public class SecondLayerLowVisionProcedure {
 
     // Método para restaurar salud mental (ahora acepta float)
     public static void restoreMentalHealth(float amount) {
-        mentalHealth = Math.min(mentalHealth + amount, 100.0f); // Máximo 100%
+        mentalHealth = Math.min(Math.max(mentalHealth + amount, 0.0f), 100.0f);
     }
 
     // Método para obtener la salud mental (devuelve float)

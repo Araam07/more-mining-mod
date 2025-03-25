@@ -13,7 +13,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import mine.moremining.item.SpectrumiteIngotItem;
 import mine.moremining.item.SecondLayerItem;
+import mine.moremining.item.RawSpectrumiteItem;
+import mine.moremining.item.RawNoxiumItem;
 import mine.moremining.item.RawInfernalIronItem;
 import mine.moremining.item.NoxiumPickaxeItem;
 import mine.moremining.item.NoxiumIngotItem;
@@ -60,6 +63,10 @@ public class MoreMiningModItems {
 	public static final RegistryObject<Item> NOXIUM_ARMOR_LEGGINGS = REGISTRY.register("noxium_armor_leggings", () -> new NoxiumArmorItem.Leggings());
 	public static final RegistryObject<Item> NOXIUM_ARMOR_BOOTS = REGISTRY.register("noxium_armor_boots", () -> new NoxiumArmorItem.Boots());
 	public static final RegistryObject<Item> NOXIUM_PICKAXE = REGISTRY.register("noxium_pickaxe", () -> new NoxiumPickaxeItem());
+	public static final RegistryObject<Item> RAW_NOXIUM = REGISTRY.register("raw_noxium", () -> new RawNoxiumItem());
+	public static final RegistryObject<Item> SPECTRUMITE_INGOT = REGISTRY.register("spectrumite_ingot", () -> new SpectrumiteIngotItem());
+	public static final RegistryObject<Item> RAW_SPECTRUMITE = REGISTRY.register("raw_spectrumite", () -> new RawSpectrumiteItem());
+	public static final RegistryObject<Item> SPECTRUMITE_ORE = block(MoreMiningModBlocks.SPECTRUMITE_ORE);
 	// Start of user code block custom items
 	public static final RegistryObject<Item> MINE_EMPEROR_PICKAXE = REGISTRY.register("mine_emperor_pickaxe", () -> new MineEmperorPickaxe(new Item.Properties()));
 

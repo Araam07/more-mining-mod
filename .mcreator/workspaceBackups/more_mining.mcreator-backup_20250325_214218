@@ -12,7 +12,7 @@
           "src/main/resources/assets/more_mining/models/item/deep_sea_crystal.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "InfernalIron",
@@ -26,7 +26,7 @@
           "src/main/resources/assets/more_mining/models/item/infernal_iron_ingot.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "EtherShard",
@@ -40,7 +40,7 @@
           "src/main/java/mine/moremining/item/EtherShardItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "DeepSeaVein",
@@ -94,7 +94,7 @@
           "src/main/resources/assets/more_mining/models/item/raw_infernal_iron.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "EtherVein",
@@ -237,7 +237,7 @@
           "src/main/resources/assets/more_mining/models/item/luminiscent_crystal.json"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "LuminiscenceVein",
@@ -355,7 +355,7 @@
           "src/main/java/mine/moremining/item/LithiumItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "LithiumOre",
@@ -438,7 +438,7 @@
           }
         ]
       },
-      "path": "~/blocks"
+      "path": "~/procedures"
     },
     {
       "name": "StoneGolem",
@@ -602,7 +602,7 @@
           }
         ]
       },
-      "path": "~/tools"
+      "path": "~/procedures"
     },
     {
       "name": "LithiumDrill",
@@ -657,7 +657,7 @@
           }
         ]
       },
-      "path": "~/tools"
+      "path": "~/procedures"
     },
     {
       "name": "LithiumDrillRightclickedOnBlock",
@@ -676,7 +676,7 @@
           }
         ]
       },
-      "path": "~/tools"
+      "path": "~/procedures"
     },
     {
       "name": "MineEmperorPickaxe",
@@ -896,7 +896,7 @@
           "src/main/java/mine/moremining/item/NoxiumIngotItem.java"
         ]
       },
-      "path": "~/materials"
+      "path": "~/items"
     },
     {
       "name": "NoxiumOre",
@@ -938,7 +938,7 @@
     {
       "name": "NoxiumPickaxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "noxium_pickaxe",
       "metadata": {
@@ -948,6 +948,150 @@
         ]
       },
       "path": "~/tools"
+    },
+    {
+      "name": "RawNoxium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_noxium",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/RawNoxiumItem.java",
+          "src/main/resources/assets/more_mining/models/item/raw_noxium.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpectrumiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/SpectrumiteIngotItem.java",
+          "src/main/resources/assets/more_mining/models/item/spectrumite_ingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RawSpectrumite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_spectrumite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/raw_spectrumite.json",
+          "src/main/java/mine/moremining/item/RawSpectrumiteItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpectrumiteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ore_block_destroyed_by_player",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mine/moremining/procedures/SpectrumiteOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "SpectrumiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/loot_tables/blocks/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/models/item/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/models/block/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/spectrumite_ore.json",
+          "src/main/java/mine/moremining/block/SpectrumiteOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "SmeltRawNoxium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_noxium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/smelt_raw_noxium.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "SmeltRawSpectrumite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_spectrumite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/smelt_raw_spectrumite.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "NoxiumPickaxeSanityPenalty",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "noxium_pickaxe_sanity_penalty",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/NoxiumPickaxeSanityPenaltyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -1086,6 +1230,7 @@
       "~CUSTOM:DeepSeaVein"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SpectrumiteOre",
       "~CUSTOM:NoxiumOre",
       "~CUSTOM:CompressedStone",
       "~CUSTOM:LithiumOre",
@@ -1093,6 +1238,7 @@
       "~CUSTOM:EtherVein"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SpectrumiteOre",
       "~CUSTOM:NoxiumOre",
       "~CUSTOM:CompressedStone",
       "~CUSTOM:LithiumOre",
@@ -1117,14 +1263,15 @@
   "language_map": {
     "en_us": {
       "item.more_mining.noxium_armor_chestplate": "Noxium Chestplate",
+      "item.more_mining.spectrumite_ingot": "Spectrumite Ingot",
       "subtitles.sinister-ambient": "Sinister ambient",
       "subtitles.cave-taps": "",
       "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
       "subtitles.seeker-sounds": "",
       "biome.more_mining.deeper_layer_b": "DeeperZone",
       "block.more_mining.noxium_ore": "Noxium Ore",
-      "item.more_mining.lithium_battery": "Lithium Battery",
       "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
+      "item.more_mining.lithium_battery": "Lithium Battery",
       "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
       "item.more_mining.ether_shard": "Ether Shard",
       "item.more_mining.noxium_armor_leggings": "Noxium Leggings",
@@ -1135,6 +1282,7 @@
       "item.more_mining.second_layer": "Second Layer Portal Igniter",
       "item.more_mining.noxium_armor_boots": "Noxium Boots",
       "item.more_mining.deeper_layer": "First Layer Portal Igniter",
+      "item.more_mining.raw_noxium": "Raw Noxium",
       "item.more_mining.lithium.description_0": "A mineral that stores energy and is used to create batteries and technological items.",
       "block.more_mining.luminiscence_vein": "Luminiscence Vein",
       "item.more_mining.infernal_iron_ingot": "Infernal Iron",
@@ -1142,6 +1290,7 @@
       "subtitles.sinister-piano": "",
       "subtitles.deep-cave": "",
       "item.more_mining.noxium_armor_helmet": "Noxium Helmet",
+      "block.more_mining.spectrumite_ore": "Spectrumite Ore",
       "item.more_mining.night_vision_glasses_helmet": "Primitive Night Vision Glases",
       "block.more_mining.deep_sea_vein": "Deep Sea Vein",
       "block.more_mining.lithium_ore": "Lithium Ore",
@@ -1152,6 +1301,7 @@
       "subtitles.sinister-sounds": "",
       "entity.more_mining.deep_skeleton": "Deep Skeleton",
       "biome.more_mining.deeper_layer": "Deeper Layer",
+      "item.more_mining.raw_spectrumite": "Raw Spectrumite",
       "block.more_mining.compressed_stone": "Compressed Stone",
       "block.more_mining.infernal_iron_ore": "Infernal Iron Ore",
       "subtitles.boo-and-laugh": "",
@@ -1170,10 +1320,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "materials",
-        "children": []
-      },
       {
         "name": "blocks",
         "children": []

@@ -49,7 +49,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:NoxiumIngot"
+      "value": "CUSTOM:RawNoxium"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

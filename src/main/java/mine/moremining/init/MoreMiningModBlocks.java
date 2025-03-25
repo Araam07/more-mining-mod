@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import mine.moremining.block.SpectrumiteOreBlock;
 import mine.moremining.block.SecondLayerPortalBlock;
 import mine.moremining.block.NoxiumOreBlock;
 import mine.moremining.block.LuminiscenceVeinBlock;
@@ -32,6 +33,7 @@ public class MoreMiningModBlocks {
 	public static final RegistryObject<Block> COMPRESSED_STONE = REGISTRY.register("compressed_stone", () -> new CompressedStoneBlock());
 	public static final RegistryObject<Block> SECOND_LAYER_PORTAL = REGISTRY.register("second_layer_portal", () -> new SecondLayerPortalBlock());
 	public static final RegistryObject<Block> NOXIUM_ORE = REGISTRY.register("noxium_ore", () -> new NoxiumOreBlock());
+	public static final RegistryObject<Block> SPECTRUMITE_ORE = REGISTRY.register("spectrumite_ore", () -> new SpectrumiteOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
