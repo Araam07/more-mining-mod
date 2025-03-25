@@ -1,0 +1,1485 @@
+{
+  "mod_elements": [
+    {
+      "name": "DeepSeaCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_sea_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/DeepSeaCrystalItem.java",
+          "src/main/resources/assets/more_mining/models/item/deep_sea_crystal.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "InfernalIron",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/InfernalIronItem.java",
+          "src/main/resources/assets/more_mining/models/item/infernal_iron_ingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EtherShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/ether_shard.json",
+          "src/main/java/mine/moremining/item/EtherShardItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DeepSeaVein",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_sea_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/forge/biome_modifier/deep_sea_vein_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/deep_sea_vein.json",
+          "src/main/resources/assets/more_mining/blockstates/deep_sea_vein.json",
+          "src/main/resources/assets/more_mining/models/block/deep_sea_vein.json",
+          "src/main/java/mine/moremining/block/DeepSeaVeinBlock.java",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/deep_sea_vein.json",
+          "src/main/resources/assets/more_mining/models/item/deep_sea_vein.json",
+          "src/main/resources/data/more_mining/loot_tables/blocks/deep_sea_vein.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "InfernalIronOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/loot_tables/blocks/infernal_iron_ore.json",
+          "src/main/resources/assets/more_mining/models/block/infernal_iron_ore.json",
+          "src/main/java/mine/moremining/block/InfernalIronOreBlock.java",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/infernal_iron_ore.json",
+          "src/main/resources/assets/more_mining/models/item/infernal_iron_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/infernal_iron_ore.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/infernal_iron_ore_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/infernal_iron_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RawInfernalIron",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_infernal_iron",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/RawInfernalIronItem.java",
+          "src/main/resources/assets/more_mining/models/item/raw_infernal_iron.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EtherVein",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_vein",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/block/EtherVeinBlock.java",
+          "src/main/resources/data/more_mining/loot_tables/blocks/ether_vein.json",
+          "src/main/resources/assets/more_mining/models/block/ether_vein.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/ether_vein_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/ether_vein.json",
+          "src/main/resources/assets/more_mining/models/item/ether_vein.json",
+          "src/main/resources/assets/more_mining/blockstates/ether_vein.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/ether_vein.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "InfernalIronIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/infernal_iron_ingot.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "FirstLayerB",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeper_layer_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/biome/deeper_layer_b.json"
+        ]
+      },
+      "path": "~/firstLayer"
+    },
+    {
+      "name": "FirstLayerCanMakePortal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_layer_can_make_portal",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mine/moremining/procedures/FirstLayerCanMakePortalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/firstLayer"
+    },
+    {
+      "name": "FirstLayer",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deeper_layer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/blockstates/deeper_layer_portal.json",
+          "src/main/java/mine/moremining/world/dimension/FirstLayerDimension.java",
+          "src/main/java/mine/moremining/world/teleporter/FirstLayerTeleporter.java",
+          "src/main/resources/assets/more_mining/models/block/deeper_layer_portal_ew.json",
+          "src/main/java/mine/moremining/block/FirstLayerPortalBlock.java",
+          "src/main/java/mine/moremining/item/FirstLayerItem.java",
+          "src/main/resources/data/more_mining/dimension_type/deeper_layer.json",
+          "src/main/java/mine/moremining/world/teleporter/FirstLayerPortalShape.java",
+          "src/main/resources/assets/more_mining/models/block/deeper_layer_portal_ns.json",
+          "src/main/resources/data/more_mining/dimension/deeper_layer.json",
+          "src/main/resources/assets/more_mining/models/item/deeper_layer.json"
+        ]
+      },
+      "path": "~/firstLayer"
+    },
+    {
+      "name": "DeepSkeleton",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/entity/DeepSkeletonEntity.java",
+          "src/main/java/mine/moremining/client/renderer/DeepSkeletonRenderer.java",
+          "src/main/java/mine/moremining/entity/DeepSkeletonEntityProjectile.java",
+          "src/main/resources/assets/more_mining/models/item/deep_skeleton_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "DeadMiner",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_miner",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/entity/DeadMinerEntity.java",
+          "src/main/resources/data/more_mining/forge/biome_modifier/dead_miner_biome_modifier.json",
+          "src/main/java/mine/moremining/client/renderer/DeadMinerRenderer.java",
+          "src/main/resources/assets/more_mining/models/item/dead_miner_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "LuminiscentCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminiscent_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/LuminiscentCrystalItem.java",
+          "src/main/resources/assets/more_mining/models/item/luminiscent_crystal.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "LuminiscenceVein",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminiscence_vein",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/block/LuminiscenceVeinBlock.java",
+          "src/main/resources/data/more_mining/loot_tables/blocks/luminiscence_vein.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/luminiscence_vein.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/luminiscence_vein.json",
+          "src/main/resources/assets/more_mining/models/item/luminiscence_vein.json",
+          "src/main/resources/assets/more_mining/blockstates/luminiscence_vein.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/luminiscence_vein_biome_modifier.json",
+          "src/main/resources/assets/more_mining/models/block/luminiscence_vein.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "NightVisionGlassesTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_glasses_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/NightVisionGlassesTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "NightVisionGlasses",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/night_vision_glasses_helmet.json",
+          "src/main/java/mine/moremining/item/NightVisionGlassesItem.java"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "NightVisionGlassesR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_glasses_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/night_vision_glasses_r.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "MinersDen",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miners_den",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/template_pool/miners_den.json",
+          "src/main/resources/data/more_mining/worldgen/structure_set/miners_den.json",
+          "src/main/resources/data/more_mining/worldgen/structure/miners_den.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "DownMine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "down_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/structure/down_mine.json",
+          "src/main/resources/data/more_mining/worldgen/structure_set/down_mine.json",
+          "src/main/resources/data/more_mining/worldgen/template_pool/down_mine.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Lithium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/lithium.json",
+          "src/main/java/mine/moremining/item/LithiumItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "LithiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/block/LithiumOreBlock.java",
+          "src/main/resources/assets/more_mining/models/block/lithium_ore.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/lithium_ore_biome_modifier.json",
+          "src/main/resources/assets/more_mining/models/item/lithium_ore.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/lithium_ore.json",
+          "src/main/resources/data/more_mining/loot_tables/blocks/lithium_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/lithium_ore.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/lithium_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "LithiumBattery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/lithium_battery.json",
+          "src/main/java/mine/moremining/item/LithiumBatteryItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "LithiumDrillC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_drill_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/lithium_drill_c.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "LithiumOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ore_block_destroyed_by_player",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mine/moremining/procedures/LithiumOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "StoneGolem",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/stone_golem_spawn_egg.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/stone_golem_biome_modifier.json",
+          "src/main/java/mine/moremining/entity/StoneGolemEntity.java",
+          "src/main/java/mine/moremining/client/renderer/StoneGolemRenderer.java",
+          "src/main/java/mine/moremining/entity/model/StoneGolemModel.java"
+        ]
+      },
+      "path": "~/entities/StoneGolem"
+    },
+    {
+      "name": "StoneGolemAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_golem_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/StoneGolemAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/StoneGolem"
+    },
+    {
+      "name": "StoneGolemOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_golem_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/StoneGolemOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/StoneGolem"
+    },
+    {
+      "name": "StoneGolemAttackDetection",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_golem_attack_detection",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/StoneGolemAttackDetectionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entities/StoneGolem"
+    },
+    {
+      "name": "StoneGolemAttackCancel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_golem_attack_cancel",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/StoneGolemAttackCancelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entities/StoneGolem"
+    },
+    {
+      "name": "LithiumDrillRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_drill_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/LithiumDrillRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "LithiumDrill",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_drill",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/renderer/LithiumDrillItemRenderer.java",
+          "src/main/java/mine/moremining/item/model/LithiumDrillItemModel.java",
+          "src/main/resources/assets/more_mining/models/item/lithium_drill.json",
+          "src/main/java/mine/moremining/item/LithiumDrillItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "LithiumDrillItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_drill_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/LithiumDrillItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "LithiumDrillRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_drill_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/LithiumDrillRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "MineEmperorPickaxe",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mine_emperor_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/MineEmperorPickaxe.java"
+        ]
+      }
+    },
+    {
+      "name": "PickaxeUpgradeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_upgrade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/client/gui/PickaxeUpgradeGUIScreen.java",
+          "src/main/java/mine/moremining/world/inventory/PickaxeUpgradeGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MineEmpire",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_empire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/structure_set/mine_empire.json",
+          "src/main/resources/data/more_mining/worldgen/structure/mine_empire.json",
+          "src/main/resources/data/more_mining/worldgen/template_pool/mine_empire.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Sssss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sssss",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/SssssProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "ThrowablePickaxe",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwable_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/entity/ThrowablePickaxeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CompressedStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/loot_tables/blocks/compressed_stone.json",
+          "src/main/resources/assets/more_mining/models/block/compressed_stone.json",
+          "src/main/resources/assets/more_mining/models/item/compressed_stone.json",
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone.json",
+          "src/main/java/mine/moremining/block/CompressedStoneBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "DeeperLayer",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeper_layer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/biome/deeper_layer.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayer",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/second_layer.json",
+          "src/main/resources/assets/more_mining/models/block/second_layer_portal_ns.json",
+          "src/main/java/mine/moremining/item/SecondLayerItem.java",
+          "src/main/java/mine/moremining/world/teleporter/SecondLayerTeleporter.java",
+          "src/main/java/mine/moremining/world/dimension/SecondLayerDimension.java",
+          "src/main/resources/assets/more_mining/models/block/second_layer_portal_ew.json",
+          "src/main/java/mine/moremining/block/SecondLayerPortalBlock.java",
+          "src/main/java/mine/moremining/world/teleporter/SecondLayerPortalShape.java",
+          "src/main/resources/data/more_mining/dimension_type/second_layer.json",
+          "src/main/resources/assets/more_mining/blockstates/second_layer_portal.json",
+          "src/main/resources/data/more_mining/dimension/second_layer.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/SecondLayerPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerLowVision",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "second_layer_low_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/SecondLayerLowVisionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "Seeker",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "seeker",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/entity/model/SeekerModel.java",
+          "src/main/java/mine/moremining/entity/SeekerEntity.java",
+          "src/main/java/mine/moremining/client/renderer/SeekerRenderer.java",
+          "src/main/resources/assets/more_mining/models/item/seeker_spawn_egg.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "NoxiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/noxium_ingot.json",
+          "src/main/java/mine/moremining/item/NoxiumIngotItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NoxiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/block/noxium_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/noxium_ore.json",
+          "src/main/java/mine/moremining/block/NoxiumOreBlock.java",
+          "src/main/resources/data/more_mining/forge/biome_modifier/noxium_ore_biome_modifier.json",
+          "src/main/resources/data/more_mining/loot_tables/blocks/noxium_ore.json",
+          "src/main/resources/assets/more_mining/models/item/noxium_ore.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/noxium_ore.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/noxium_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "NoxiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_chestplate.json",
+          "src/main/java/mine/moremining/item/NoxiumArmorItem.java",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_helmet.json",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_leggings.json",
+          "src/main/resources/assets/more_mining/models/item/noxium_armor_boots.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "NoxiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/NoxiumPickaxeItem.java",
+          "src/main/resources/assets/more_mining/models/item/noxium_pickaxe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "RawNoxium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_noxium",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/RawNoxiumItem.java",
+          "src/main/resources/assets/more_mining/models/item/raw_noxium.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpectrumiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/SpectrumiteIngotItem.java",
+          "src/main/resources/assets/more_mining/models/item/spectrumite_ingot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RawSpectrumite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_spectrumite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/raw_spectrumite.json",
+          "src/main/java/mine/moremining/item/RawSpectrumiteItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpectrumiteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ore_block_destroyed_by_player",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mine/moremining/procedures/SpectrumiteOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "SpectrumiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectrumite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/loot_tables/blocks/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/models/item/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/models/block/spectrumite_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/spectrumite_ore.json",
+          "src/main/java/mine/moremining/block/SpectrumiteOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "SmeltRawNoxium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_noxium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/smelt_raw_noxium.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "SmeltRawSpectrumite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_spectrumite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/smelt_raw_spectrumite.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "NoxiumPickaxeSanityPenalty",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "noxium_pickaxe_sanity_penalty",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/NoxiumPickaxeSanityPenaltyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CraftNoxiumPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_pickaxe.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_helmet.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumChestPlate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_chest_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_chest_plate.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_leggings.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_boots.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "NoxiumArmorSanityPenalty",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noxium_armor_sanity_penalty",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/NoxiumArmorSanityPenaltyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "rightClick",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "looking",
+      "type": "blockstate",
+      "scope": "player_lifetime",
+      "value": "Blocks.AIR.defaultBlockState()"
+    },
+    {
+      "name": "firstLoad",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "MentalHealth",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "MentalHealthCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "deep-cave",
+      "files": [
+        "deep-cave"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-taps",
+      "files": [
+        "cave-taps"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "waterdrops-cave-echo",
+      "files": [
+        "waterdrops-cave-echo"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "old-mine-ambience",
+      "files": [
+        "old-mine-ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "sinister-ambient",
+      "files": [
+        "spooky-background-atmosphere-for-games",
+        "haunted-space",
+        "horror-music"
+      ],
+      "category": "neutral",
+      "subtitle": "Sinister ambient"
+    },
+    {
+      "name": "sinister-piano",
+      "files": [
+        "dark-loops-000-piano-efect-80-bpm",
+        "dark-loops-042-piano-80-bpm"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "sinister-sounds",
+      "files": [
+        "ethereal-growling-in-a-cave",
+        "horror-sfx-3",
+        "male-breathing",
+        "manic-whistle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "stone-things",
+      "files": [
+        "broke",
+        "stone-hitting-stone",
+        "impact-stone"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "seeker-step",
+      "files": [
+        "bones-breaking"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "boo-and-laugh",
+      "files": [
+        "boo-and-laugh"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "seeker-sounds",
+      "files": [
+        "manic-whistle",
+        "whisper-fluisteren"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepSeaVein"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SpectrumiteOre",
+      "~CUSTOM:NoxiumOre",
+      "~CUSTOM:CompressedStone",
+      "~CUSTOM:LithiumOre",
+      "~CUSTOM:LuminiscenceVein",
+      "~CUSTOM:EtherVein"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SpectrumiteOre",
+      "~CUSTOM:NoxiumOre",
+      "~CUSTOM:CompressedStone",
+      "~CUSTOM:LithiumOre",
+      "~CUSTOM:LuminiscenceVein",
+      "~CUSTOM:EtherVein",
+      "~CUSTOM:InfernalIronOre"
+    ],
+    "ITEMS:mod:tag": [
+      "CUSTOM:LithiumDrill"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:DeepSeaVein"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NoxiumPickaxe"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:CompressedStone"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.more_mining.noxium_armor_chestplate": "Noxium Chestplate",
+      "item.more_mining.spectrumite_ingot": "Spectrumite Ingot",
+      "subtitles.sinister-ambient": "Sinister ambient",
+      "subtitles.cave-taps": "",
+      "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
+      "subtitles.seeker-sounds": "",
+      "biome.more_mining.deeper_layer_b": "DeeperZone",
+      "block.more_mining.noxium_ore": "Noxium Ore",
+      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
+      "item.more_mining.lithium_battery": "Lithium Battery",
+      "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
+      "item.more_mining.ether_shard": "Ether Shard",
+      "item.more_mining.noxium_armor_leggings": "Noxium Leggings",
+      "item.more_mining.lithium": "Lithium",
+      "entity.more_mining.stone_golem": "Stone Golem",
+      "item.more_mining.stone_golem_spawn_egg": "Stone Golem Spawn Egg",
+      "subtitles.old-mine-ambience": "",
+      "item.more_mining.second_layer": "Second Layer Portal Igniter",
+      "item.more_mining.noxium_armor_boots": "Noxium Boots",
+      "item.more_mining.deeper_layer": "First Layer Portal Igniter",
+      "item.more_mining.raw_noxium": "Raw Noxium",
+      "item.more_mining.lithium.description_0": "A mineral that stores energy and is used to create batteries and technological items.",
+      "block.more_mining.luminiscence_vein": "Luminiscence Vein",
+      "item.more_mining.infernal_iron_ingot": "Infernal Iron",
+      "entity.more_mining.dead_miner": "Dead Miner",
+      "subtitles.sinister-piano": "",
+      "subtitles.deep-cave": "",
+      "item.more_mining.noxium_armor_helmet": "Noxium Helmet",
+      "block.more_mining.spectrumite_ore": "Spectrumite Ore",
+      "item.more_mining.night_vision_glasses_helmet": "Primitive Night Vision Glases",
+      "block.more_mining.deep_sea_vein": "Deep Sea Vein",
+      "block.more_mining.lithium_ore": "Lithium Ore",
+      "item.more_mining.deep_skeleton_spawn_egg": "Deep Skeleton Spawn Egg",
+      "block.more_mining.ether_vein": "Ether Vein",
+      "item.more_mining.dead_miner_spawn_egg": "Dead Miner Spawn Egg",
+      "item.more_mining.noxium_ingot": "Noxium Ingot",
+      "subtitles.sinister-sounds": "",
+      "entity.more_mining.deep_skeleton": "Deep Skeleton",
+      "biome.more_mining.deeper_layer": "Deeper Layer",
+      "item.more_mining.raw_spectrumite": "Raw Spectrumite",
+      "block.more_mining.compressed_stone": "Compressed Stone",
+      "block.more_mining.infernal_iron_ore": "Infernal Iron Ore",
+      "subtitles.boo-and-laugh": "",
+      "subtitles.seeker-step": "",
+      "item.more_mining.seeker_spawn_egg": "Seeker Spawn Egg",
+      "item.more_mining.raw_infernal_iron": "Raw Infernal Iron",
+      "subtitles.waterdrops-cave-echo": "",
+      "item.more_mining.deep_sea_crystal": "Deep Sea Crystal",
+      "item.more_mining.luminiscent_crystal.description_0": "Makes the darknes a little darkless",
+      "item.more_mining.lithium_drill": "Lithium Drill",
+      "entity.more_mining.seeker": "Seeker",
+      "item.more_mining.luminiscent_crystal": "Luminiscent Crystal",
+      "subtitles.stone-things": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "recipies",
+        "children": []
+      },
+      {
+        "name": "firstLayer",
+        "children": []
+      },
+      {
+        "name": "entities",
+        "children": [
+          {
+            "name": "StoneGolem",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "armor",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
+      },
+      {
+        "name": "secondLayer",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "more_mining",
+    "modName": "More Mining",
+    "version": "1.0.0",
+    "author": "adami, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mine.moremining"
+  },
+  "mcreatorVersion": 202400452410
+}
