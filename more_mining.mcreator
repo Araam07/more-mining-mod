@@ -1092,6 +1092,102 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "CraftNoxiumPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_pickaxe.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_helmet.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumChestPlate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_chest_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_chest_plate.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_leggings.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CraftNoxiumBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_noxium_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_noxium_boots.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "NoxiumArmorSanityPenalty",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "noxium_armor_sanity_penalty",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/procedures/NoxiumArmorSanityPenaltyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -1265,13 +1361,13 @@
       "item.more_mining.noxium_armor_chestplate": "Noxium Chestplate",
       "item.more_mining.spectrumite_ingot": "Spectrumite Ingot",
       "subtitles.sinister-ambient": "Sinister ambient",
-      "subtitles.cave-taps": "",
       "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
+      "subtitles.cave-taps": "",
       "subtitles.seeker-sounds": "",
       "biome.more_mining.deeper_layer_b": "DeeperZone",
       "block.more_mining.noxium_ore": "Noxium Ore",
-      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
       "item.more_mining.lithium_battery": "Lithium Battery",
+      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
       "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
       "item.more_mining.ether_shard": "Ether Shard",
       "item.more_mining.noxium_armor_leggings": "Noxium Leggings",

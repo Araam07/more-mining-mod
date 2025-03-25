@@ -3,8 +3,6 @@ package mine.moremining;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.registries.RegisterEvent;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
@@ -26,7 +24,6 @@ import mine.moremining.init.MoreMiningModMenus;
 import mine.moremining.init.MoreMiningModItems;
 import mine.moremining.init.MoreMiningModEntities;
 import mine.moremining.init.MoreMiningModBlocks;
-import mine.moremining.effect.LowVisionEffect;
 import mine.moremining.commands.MentalHealthCommand;
 
 import java.util.function.Supplier;
@@ -55,21 +52,10 @@ public class MoreMiningMod {
 		MoreMiningModTabs.REGISTRY.register(bus);
 		MoreMiningModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
-		// Registra el efecto LowVisionEffect
-		bus.addListener(this::registerEffects);
 		// End of user code block mod init
 	}
 
 	// Start of user code block mod methods
-	// Declara el efecto LowVisionEffect
-	public static final LowVisionEffect LOW_VISION_EFFECT = new LowVisionEffect();
-
-	private void registerEffects(RegisterEvent event) {
-		event.register(ForgeRegistries.Keys.MOB_EFFECTS, helper -> {
-			helper.register(new ResourceLocation(MODID, "low_vision"), LOW_VISION_EFFECT);
-		});
-	}
-
 	@SubscribeEvent
 	public void onRegisterCommands(RegisterCommandsEvent event) {
 		// Registrar el comando de salud mental
