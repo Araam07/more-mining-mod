@@ -120,7 +120,7 @@
     "onDestroyedByPlayer": {
       "name": "SpectrumiteOreBlockDestroyedByPlayer"
     },
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

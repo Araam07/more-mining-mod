@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CompressedStoneBlock extends Block {
 	public CompressedStoneBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.DEEPSLATE).sound(SoundType.STONE).strength(1f, 15f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.DEEPSLATE).sound(SoundType.DEEPSLATE).strength(5f, 15f).requiresCorrectToolForDrops());
 	}
 
 	@Override

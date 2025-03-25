@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "more_mining:block/compressed_stone_redstone_ore"
+    }
+  }
+}

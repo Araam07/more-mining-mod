@@ -38,7 +38,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -84,7 +84,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""

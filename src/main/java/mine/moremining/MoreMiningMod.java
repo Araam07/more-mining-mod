@@ -24,6 +24,7 @@ import mine.moremining.init.MoreMiningModMenus;
 import mine.moremining.init.MoreMiningModItems;
 import mine.moremining.init.MoreMiningModEntities;
 import mine.moremining.init.MoreMiningModBlocks;
+import mine.moremining.commands.SetSanityCommand;
 import mine.moremining.commands.MentalHealthCommand;
 
 import java.util.function.Supplier;
@@ -60,6 +61,7 @@ public class MoreMiningMod {
 	public void onRegisterCommands(RegisterCommandsEvent event) {
 		// Registrar el comando de salud mental
 		MentalHealthCommand.register(event.getDispatcher());
+		SetSanityCommand.register(event.getDispatcher());
 	}
 
 	// End of user code block mod methods

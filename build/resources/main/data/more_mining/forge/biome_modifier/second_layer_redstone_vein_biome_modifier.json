@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "more_mining:deeper_layer",
+  "features": "more_mining:second_layer_redstone_vein",
+  "step": "underground_ores"
+}

@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import mine.moremining.item.TeddyBearItem;
 import mine.moremining.item.SpectrumiteIngotItem;
 import mine.moremining.item.SecondLayerItem;
 import mine.moremining.item.RawSpectrumiteItem;
@@ -67,6 +68,12 @@ public class MoreMiningModItems {
 	public static final RegistryObject<Item> SPECTRUMITE_INGOT = REGISTRY.register("spectrumite_ingot", () -> new SpectrumiteIngotItem());
 	public static final RegistryObject<Item> RAW_SPECTRUMITE = REGISTRY.register("raw_spectrumite", () -> new RawSpectrumiteItem());
 	public static final RegistryObject<Item> SPECTRUMITE_ORE = block(MoreMiningModBlocks.SPECTRUMITE_ORE);
+	public static final RegistryObject<Item> COMPRESSED_STONE_DIAMOND_ORE = block(MoreMiningModBlocks.COMPRESSED_STONE_DIAMOND_ORE);
+	public static final RegistryObject<Item> COMPRESSED_STONE_IRON_ORE = block(MoreMiningModBlocks.COMPRESSED_STONE_IRON_ORE);
+	public static final RegistryObject<Item> COMPRESSED_STONE_REDSTONE_ORE = block(MoreMiningModBlocks.COMPRESSED_STONE_REDSTONE_ORE);
+	public static final RegistryObject<Item> COMPRESSED_STONE_GOLD_ORE = block(MoreMiningModBlocks.COMPRESSED_STONE_GOLD_ORE);
+	public static final RegistryObject<Item> COMPRESSED_STONE_COAL_ORE = block(MoreMiningModBlocks.COMPRESSED_STONE_COAL_ORE);
+	public static final RegistryObject<Item> TEDDY_BEAR = REGISTRY.register("teddy_bear", () -> new TeddyBearItem());
 	// Start of user code block custom items
 	public static final RegistryObject<Item> MINE_EMPEROR_PICKAXE = REGISTRY.register("mine_emperor_pickaxe", () -> new MineEmperorPickaxe(new Item.Properties()));
 

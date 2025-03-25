@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "more_mining:compressed_stone_coal_ore",
+    "more_mining:compressed_stone_gold_ore",
+    "more_mining:compressed_stone_iron_ore",
+    "more_mining:compressed_stone_diamond_ore",
     "more_mining:spectrumite_ore",
     "more_mining:noxium_ore",
     "more_mining:compressed_stone",

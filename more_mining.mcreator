@@ -1035,8 +1035,11 @@
       "registry_name": "spectrumite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/more_mining/forge/biome_modifier/spectrumite_ore_biome_modifier.json",
           "src/main/resources/data/more_mining/loot_tables/blocks/spectrumite_ore.json",
           "src/main/resources/assets/more_mining/models/item/spectrumite_ore.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/spectrumite_ore.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/spectrumite_ore.json",
           "src/main/resources/assets/more_mining/models/block/spectrumite_ore.json",
           "src/main/resources/assets/more_mining/blockstates/spectrumite_ore.json",
           "src/main/java/mine/moremining/block/SpectrumiteOreBlock.java"
@@ -1188,6 +1191,175 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "CompressedStoneDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/block/compressed_stone_diamond_ore.json",
+          "src/main/resources/assets/more_mining/models/item/compressed_stone_diamond_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone_diamond_ore.json",
+          "src/main/java/mine/moremining/block/CompressedStoneDiamondOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CompressedStoneIronOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/compressed_stone_iron_ore.json",
+          "src/main/resources/assets/more_mining/models/block/compressed_stone_iron_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone_iron_ore.json",
+          "src/main/java/mine/moremining/block/CompressedStoneIronOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CompressedStoneRedstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_redstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/block/CompressedStoneRedstoneOreBlock.java",
+          "src/main/resources/assets/more_mining/models/block/compressed_stone_redstone_ore.json",
+          "src/main/resources/assets/more_mining/models/item/compressed_stone_redstone_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone_redstone_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CompressedStoneGoldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_gold_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone_gold_ore.json",
+          "src/main/resources/assets/more_mining/models/block/compressed_stone_gold_ore.json",
+          "src/main/resources/assets/more_mining/models/item/compressed_stone_gold_ore.json",
+          "src/main/java/mine/moremining/block/CompressedStoneGoldOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CompressedStoneCoalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_coal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mining/models/item/compressed_stone_coal_ore.json",
+          "src/main/resources/assets/more_mining/blockstates/compressed_stone_coal_ore.json",
+          "src/main/java/mine/moremining/block/CompressedStoneCoalOreBlock.java",
+          "src/main/resources/assets/more_mining/models/block/compressed_stone_coal_ore.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "SecondLayerGoldVein",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_gold_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/forge/biome_modifier/second_layer_gold_vein_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/second_layer_gold_vein.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/second_layer_gold_vein.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerIronVein",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_iron_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/configured_feature/second_layer_iron_vein.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/second_layer_iron_vein_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/second_layer_iron_vein.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerDiamondVein",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_diamond_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/configured_feature/second_layer_diamond_vein.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/second_layer_diamond_vein.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/second_layer_diamond_vein_biome_modifier.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerCoalVein",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_coal_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/worldgen/configured_feature/second_layer_coal_vein.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/second_layer_coal_vein.json",
+          "src/main/resources/data/more_mining/forge/biome_modifier/second_layer_coal_vein_biome_modifier.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "SecondLayerRedstoneVein",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_layer_redstone_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/forge/biome_modifier/second_layer_redstone_vein_biome_modifier.json",
+          "src/main/resources/data/more_mining/worldgen/configured_feature/second_layer_redstone_vein.json",
+          "src/main/resources/data/more_mining/worldgen/placed_feature/second_layer_redstone_vein.json"
+        ]
+      },
+      "path": "~/secondLayer"
+    },
+    {
+      "name": "TeddyBear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "teddy_bear",
+      "metadata": {
+        "files": [
+          "src/main/java/mine/moremining/item/TeddyBearItem.java",
+          "src/main/resources/assets/more_mining/models/item/teddy_bear.json"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [
@@ -1326,6 +1498,10 @@
       "~CUSTOM:DeepSeaVein"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:CompressedStoneCoalOre",
+      "~CUSTOM:CompressedStoneGoldOre",
+      "~CUSTOM:CompressedStoneIronOre",
+      "~CUSTOM:CompressedStoneDiamondOre",
       "~CUSTOM:SpectrumiteOre",
       "~CUSTOM:NoxiumOre",
       "~CUSTOM:CompressedStone",
@@ -1334,6 +1510,11 @@
       "~CUSTOM:EtherVein"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CompressedStoneCoalOre",
+      "~CUSTOM:CompressedStoneRedstoneOre",
+      "~CUSTOM:CompressedStoneGoldOre",
+      "~CUSTOM:CompressedStoneIronOre",
+      "~CUSTOM:CompressedStoneDiamondOre",
       "~CUSTOM:SpectrumiteOre",
       "~CUSTOM:NoxiumOre",
       "~CUSTOM:CompressedStone",
@@ -1359,20 +1540,23 @@
   "language_map": {
     "en_us": {
       "item.more_mining.noxium_armor_chestplate": "Noxium Chestplate",
+      "item.more_mining.teddy_bear": "Teddy Bear",
       "item.more_mining.spectrumite_ingot": "Spectrumite Ingot",
       "subtitles.sinister-ambient": "Sinister ambient",
-      "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
       "subtitles.cave-taps": "",
+      "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
       "subtitles.seeker-sounds": "",
       "biome.more_mining.deeper_layer_b": "DeeperZone",
       "block.more_mining.noxium_ore": "Noxium Ore",
-      "item.more_mining.lithium_battery": "Lithium Battery",
       "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
+      "item.more_mining.lithium_battery": "Lithium Battery",
+      "item.more_mining.teddy_bear.description_0": "Calms You",
       "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
       "item.more_mining.ether_shard": "Ether Shard",
       "item.more_mining.noxium_armor_leggings": "Noxium Leggings",
       "item.more_mining.lithium": "Lithium",
       "entity.more_mining.stone_golem": "Stone Golem",
+      "block.more_mining.compressed_stone_coal_ore": "Compressed Stone Coal Ore",
       "item.more_mining.stone_golem_spawn_egg": "Stone Golem Spawn Egg",
       "subtitles.old-mine-ambience": "",
       "item.more_mining.second_layer": "Second Layer Portal Igniter",
@@ -1392,6 +1576,7 @@
       "block.more_mining.lithium_ore": "Lithium Ore",
       "item.more_mining.deep_skeleton_spawn_egg": "Deep Skeleton Spawn Egg",
       "block.more_mining.ether_vein": "Ether Vein",
+      "block.more_mining.compressed_stone_redstone_ore": "Compressed Stone Redstone Ore",
       "item.more_mining.dead_miner_spawn_egg": "Dead Miner Spawn Egg",
       "item.more_mining.noxium_ingot": "Noxium Ingot",
       "subtitles.sinister-sounds": "",
@@ -1403,6 +1588,7 @@
       "subtitles.boo-and-laugh": "",
       "subtitles.seeker-step": "",
       "item.more_mining.seeker_spawn_egg": "Seeker Spawn Egg",
+      "block.more_mining.compressed_stone_diamond_ore": "Compressed Stone Diamond Ore",
       "item.more_mining.raw_infernal_iron": "Raw Infernal Iron",
       "subtitles.waterdrops-cave-echo": "",
       "item.more_mining.deep_sea_crystal": "Deep Sea Crystal",
@@ -1410,7 +1596,9 @@
       "item.more_mining.lithium_drill": "Lithium Drill",
       "entity.more_mining.seeker": "Seeker",
       "item.more_mining.luminiscent_crystal": "Luminiscent Crystal",
-      "subtitles.stone-things": ""
+      "subtitles.stone-things": "",
+      "block.more_mining.compressed_stone_iron_ore": "Compressed Stone Iron Ore",
+      "block.more_mining.compressed_stone_gold_ore": "Compressed Stone Gold Ore"
     }
   },
   "foldersRoot": {

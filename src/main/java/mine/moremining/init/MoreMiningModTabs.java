@@ -36,11 +36,15 @@ public class MoreMiningModTabs {
 			tabData.accept(MoreMiningModBlocks.LITHIUM_ORE.get().asItem());
 			tabData.accept(MoreMiningModBlocks.COMPRESSED_STONE.get().asItem());
 			tabData.accept(MoreMiningModBlocks.NOXIUM_ORE.get().asItem());
+			tabData.accept(MoreMiningModBlocks.COMPRESSED_STONE_IRON_ORE.get().asItem());
+			tabData.accept(MoreMiningModBlocks.COMPRESSED_STONE_REDSTONE_ORE.get().asItem());
+			tabData.accept(MoreMiningModBlocks.COMPRESSED_STONE_GOLD_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MoreMiningModItems.DEEPER_LAYER.get());
 			tabData.accept(MoreMiningModItems.LITHIUM_DRILL.get());
 			tabData.accept(MoreMiningModItems.SECOND_LAYER.get());
 			tabData.accept(MoreMiningModItems.NOXIUM_PICKAXE.get());
+			tabData.accept(MoreMiningModItems.TEDDY_BEAR.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(MoreMiningModItems.DEEP_SKELETON_SPAWN_EGG.get());
 			tabData.accept(MoreMiningModItems.DEAD_MINER_SPAWN_EGG.get());
