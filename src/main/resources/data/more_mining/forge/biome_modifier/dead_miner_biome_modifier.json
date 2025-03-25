@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "more_mining:deeper_layer_b",
+  "spawners": {
+    "type": "more_mining:dead_miner",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "more_mining:miners_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 10,
+    "salt": 508914704
+  }
+}

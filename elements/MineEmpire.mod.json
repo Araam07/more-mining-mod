@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "mine_castle",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 2500,
+    "separation": 2499,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FirstLayerB"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 18,
+    "startHeightMax": 40,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

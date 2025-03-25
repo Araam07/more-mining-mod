@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "more_mining:block/ether_vein"
+    }
+  }
+}

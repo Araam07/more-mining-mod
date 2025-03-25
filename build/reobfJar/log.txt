@@ -1,0 +1,666 @@
+Java Launcher: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.14+7\bin\java.exe
+Arguments: '--input, C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\libs\modid-1.0.jar, --output, C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar\output.jar, --names, C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar\mappings.tsrg, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.4.9_mapped_official_1.20.1\geckolib-forge-1.20.1-4.4.9_mapped_official_1.20.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.6\ForgeAutoRenamingTool-1.0.6-all.jar
+Working directory: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.6
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.4.9_mapped_official_1.20.1\geckolib-forge-1.20.1-4.4.9_mapped_official_1.20.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\adami.DESKTOP-3IM5UMR\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\libs\modid-1.0.jar
+output: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar\output.jar
+threads: 8
+Names: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\libs\modid-1.0.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for mine/moremining/block/DeepSeaVeinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/SecondLayerPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/NetherPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for mine/moremining/block/FirstLayerPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/NetherPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for mine/moremining/block/SecondLayerPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: animateTick -> m_214162_
+Conflicting propagated mapping for mine/moremining/block/FirstLayerPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: animateTick -> m_214162_
+Conflicting propagated mapping for mine/moremining/block/SecondLayerPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/NetherPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for mine/moremining/block/FirstLayerPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/NetherPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for mine/moremining/block/SecondLayerPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for mine/moremining/block/FirstLayerPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for mine/moremining/block/CompressedStoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/EtherVeinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/LuminiscenceVeinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/InfernalIronOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/LithiumOreBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for mine/moremining/block/LithiumOreBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for mine/moremining/block/LithiumOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for mine/moremining/block/LithiumOreBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for mine/moremining/block/LithiumOreBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for mine/moremining/client/model/ModelDS/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for mine/moremining/client/model/ModelDS/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for mine/moremining/client/renderer/DeadMinerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for mine/moremining/client/gui/MineEmperorPickaxeScreen/isPauseScreen()Z from net/minecraft/client/gui/screens/Screen/isPauseScreen()Z: isPauseScreen -> m_7043_
+Conflicting propagated mapping for mine/moremining/client/gui/MineEmperorPickaxeScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/Screen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for mine/moremining/client/gui/MineEmperorPickaxeScreen/init()V from net/minecraft/client/gui/screens/Screen/init()V: init -> m_7856_
+Conflicting propagated mapping for mine/moremining/client/gui/PickaxeUpgradeGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for mine/moremining/client/gui/PickaxeUpgradeGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for mine/moremining/client/gui/PickaxeUpgradeGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for mine/moremining/client/gui/PickaxeUpgradeGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for mine/moremining/client/gui/PickaxeUpgradeGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for mine/moremining/world/inventory/PickaxeUpgradeGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for mine/moremining/world/inventory/PickaxeUpgradeGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for mine/moremining/client/renderer/DeepSkeletonRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V from net/minecraft/world/entity/monster/RangedAttackMob/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V: performRangedAttack -> m_6504_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/defineSynchedData()V from net/minecraft/world/entity/Mob/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity/tickDeath()V from net/minecraft/world/entity/LivingEntity/tickDeath()V: tickDeath -> m_6153_
+Conflicting propagated mapping for mine/moremining/entity/DeadMinerEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for mine/moremining/effect/LowVisionEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for mine/moremining/effect/LowVisionEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntity$1/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/RangedAttackGoal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for mine/moremining/entity/StoneGolemEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntityProjectile/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for mine/moremining/entity/ThrowablePickaxeEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for mine/moremining/entity/ThrowablePickaxeEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for mine/moremining/entity/ThrowablePickaxeEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for mine/moremining/entity/ThrowablePickaxeEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mine/moremining/entity/ThrowablePickaxeEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntityProjectile/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntityProjectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for mine/moremining/entity/DeepSkeletonEntityProjectile/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for mine/moremining/item/MineEmperorPickaxe/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for mine/moremining/item/MineEmperorPickaxe/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
+Conflicting propagated mapping for mine/moremining/item/LithiumDrillItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for mine/moremining/item/LithiumDrillItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for mine/moremining/item/LithiumDrillItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$Helmet/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for mine/moremining/item/SecondLayerItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for mine/moremining/menu/MineEmperorPickaxeMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for mine/moremining/menu/MineEmperorPickaxeMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for mine/moremining/item/LithiumBatteryItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for mine/moremining/item/LithiumItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for mine/moremining/item/LuminiscentCrystalItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for mine/moremining/item/FirstLayerItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
+Conflicting propagated mapping for mine/moremining/item/renderer/LithiumDrillItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for mine/moremining/item/NightVisionGlassesItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V from net/minecraft/server/level/ServerPlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V: displayClientMessage -> m_5661_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/server/level/ServerPlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
+Conflicting propagated mapping for mine/moremining/world/dimension/FirstLayerDimension$FirstLayerSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
+Conflicting propagated mapping for mine/moremining/world/dimension/FirstLayerDimension$FirstLayerSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
+Conflicting propagated mapping for mine/moremining/world/dimension/SecondLayerDimension$SecondLayerSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
+Conflicting propagated mapping for mine/moremining/world/dimension/SecondLayerDimension$SecondLayerSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
+Conflicting propagated mapping for mine/moremining/world/gen/CustomChunkGenerator/fillFromNoise(Ljava/util/concurrent/Executor;Lnet/minecraft/world/level/levelgen/blending/Blender;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator/fillFromNoise(Ljava/util/concurrent/Executor;Lnet/minecraft/world/level/levelgen/blending/Blender;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;: fillFromNoise -> m_213974_
+Adding extras
+Sorting
+Writing Output: C:\Users\adami.DESKTOP-3IM5UMR\Documents\MCreator\MoreMining\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/mods.toml
+  assets/
+  assets/more_mining/
+  assets/more_mining/animations/
+  assets/more_mining/animations/drill.animation.json
+  assets/more_mining/animations/lithium_drill.animation.json
+  assets/more_mining/animations/mineemperor.animation.json
+  assets/more_mining/animations/stonegolem.animation.json
+  assets/more_mining/blockstates/
+  assets/more_mining/blockstates/compressed_stone.json
+  assets/more_mining/blockstates/deep_sea_vein.json
+  assets/more_mining/blockstates/deeper_layer_portal.json
+  assets/more_mining/blockstates/ether_vein.json
+  assets/more_mining/blockstates/infernal_iron_ore.json
+  assets/more_mining/blockstates/lithium_ore.json
+  assets/more_mining/blockstates/luminiscence_vein.json
+  assets/more_mining/blockstates/second_layer_portal.json
+  assets/more_mining/geo/
+  assets/more_mining/geo/drill.geo.json
+  assets/more_mining/geo/lithium_drill.geo.json
+  assets/more_mining/geo/mineemperor.geo.json
+  assets/more_mining/geo/stonegolem.geo.json
+  assets/more_mining/lang/
+  assets/more_mining/lang/en_us.json
+  assets/more_mining/models/
+  assets/more_mining/models/MineEmperor.bbmodel
+  assets/more_mining/models/MineEmperorHammer.bbmodel
+  assets/more_mining/models/MineEmperorHammer.mtl
+  assets/more_mining/models/MineEmperorHammer.obj
+  assets/more_mining/models/MineEmperorHammer.png
+  assets/more_mining/models/block/
+  assets/more_mining/models/block/compressed_stone.json
+  assets/more_mining/models/block/deep_sea_vein.json
+  assets/more_mining/models/block/deeper_layer_portal_ew.json
+  assets/more_mining/models/block/deeper_layer_portal_ns.json
+  assets/more_mining/models/block/ether_vein.json
+  assets/more_mining/models/block/infernal_iron_ore.json
+  assets/more_mining/models/block/lithium_ore.json
+  assets/more_mining/models/block/luminiscence_vein.json
+  assets/more_mining/models/block/second_layer_portal_ew.json
+  assets/more_mining/models/block/second_layer_portal_ns.json
+  assets/more_mining/models/displaysettings/
+  assets/more_mining/models/displaysettings/drill.display.json
+  assets/more_mining/models/displaysettings/lithium_drill.display.json
+  assets/more_mining/models/entity/
+  assets/more_mining/models/entity/MineEmperor.animation.json
+  assets/more_mining/models/entity/MineEmperor.geo.json
+  assets/more_mining/models/entity/StoneGolem.bbmodel
+  assets/more_mining/models/entity/StoneGolem_1.bbmodel
+  assets/more_mining/models/entity/mine_emperor.png
+  assets/more_mining/models/entity/stoneGolem - Converted.bbmodel
+  assets/more_mining/models/entity/stoneGolem.animation.json
+  assets/more_mining/models/entity/stoneGolem.animations.java
+  assets/more_mining/models/entity/stoneGolem.geo.json
+  assets/more_mining/models/entity/stoneGolem.java
+  assets/more_mining/models/entity/stoneGolemAttack.animation.json
+  assets/more_mining/models/entity/stone_golem_texture.png
+  assets/more_mining/models/item/
+  assets/more_mining/models/item/Drill.bbmodel
+  assets/more_mining/models/item/DrillSC.bbmodel
+  assets/more_mining/models/item/compressed_stone.json
+  assets/more_mining/models/item/dead_miner_spawn_egg.json
+  assets/more_mining/models/item/deep_sea_crystal.json
+  assets/more_mining/models/item/deep_sea_vein.json
+  assets/more_mining/models/item/deep_skeleton_spawn_egg.json
+  assets/more_mining/models/item/deeper_layer.json
+  assets/more_mining/models/item/drill.animation.json
+  assets/more_mining/models/item/drill.display.json
+  assets/more_mining/models/item/drill.geo.json
+  assets/more_mining/models/item/drill/
+  assets/more_mining/models/item/drill/lithium_drill.animation.json
+  assets/more_mining/models/item/drill/lithium_drill.display.json
+  assets/more_mining/models/item/drill/lithium_drill.geo.json
+  assets/more_mining/models/item/ether_shard.json
+  assets/more_mining/models/item/ether_vein.json
+  assets/more_mining/models/item/infernal_iron_ingot.json
+  assets/more_mining/models/item/infernal_iron_ore.json
+  assets/more_mining/models/item/lithium.json
+  assets/more_mining/models/item/lithium_battery.json
+  assets/more_mining/models/item/lithium_drill.json
+  assets/more_mining/models/item/lithium_ore.json
+  assets/more_mining/models/item/luminiscence_vein.json
+  assets/more_mining/models/item/luminiscent_crystal.json
+  assets/more_mining/models/item/mine_emperor_pickaxe.json
+  assets/more_mining/models/item/night_vision_glasses_helmet.json
+  assets/more_mining/models/item/raw_infernal_iron.json
+  assets/more_mining/models/item/second_layer.json
+  assets/more_mining/models/item/stone_golem_spawn_egg.json
+  assets/more_mining/models/player.bbmodel
+  assets/more_mining/models/steve.png
+  assets/more_mining/models/texture.png
+  assets/more_mining/sounds.json
+  assets/more_mining/sounds/
+  assets/more_mining/sounds/ambient/
+  assets/more_mining/sounds/ambient/broke-44162.mp3
+  assets/more_mining/sounds/ambient/broke.ogg
+  assets/more_mining/sounds/ambient/cave-taps.ogg
+  assets/more_mining/sounds/ambient/dark-loops-000-piano-efect-80-bpm.ogg
+  assets/more_mining/sounds/ambient/dark-loops-042-piano-80-bpm.ogg
+  assets/more_mining/sounds/ambient/deep-cave.ogg
+  assets/more_mining/sounds/ambient/ethereal-growling-in-a-cave.mp3
+  assets/more_mining/sounds/ambient/ethereal-growling-in-a-cave.ogg
+  assets/more_mining/sounds/ambient/haunted-space.ogg
+  assets/more_mining/sounds/ambient/horror-music.ogg
+  assets/more_mining/sounds/ambient/horror-sfx-3.mp3
+  assets/more_mining/sounds/ambient/horror-sfx-3.ogg
+  assets/more_mining/sounds/ambient/impact-stone.ogg
+  assets/more_mining/sounds/ambient/male-breathing.ogg
+  assets/more_mining/sounds/ambient/manic-whistle.mp3
+  assets/more_mining/sounds/ambient/manic-whistle.ogg
+  assets/more_mining/sounds/ambient/old-mine-ambience.mp3
+  assets/more_mining/sounds/ambient/old-mine-ambience.ogg
+  assets/more_mining/sounds/ambient/scary-secrets.ogg
+  assets/more_mining/sounds/ambient/spooky-background-atmosphere-for-games.ogg
+  assets/more_mining/sounds/ambient/stone-hitting-stone.ogg
+  assets/more_mining/sounds/ambient/waterdrops-cave-echo.ogg
+  assets/more_mining/sounds/ambient/zombie-breathing.mp3
+  assets/more_mining/sounds/boo-and-laugh.mp3
+  assets/more_mining/sounds/broke.ogg
+  assets/more_mining/sounds/cave-taps.ogg
+  assets/more_mining/sounds/dark-loops-000-piano-efect-80-bpm.ogg
+  assets/more_mining/sounds/dark-loops-042-piano-80-bpm.ogg
+  assets/more_mining/sounds/deep-cave.ogg
+  assets/more_mining/sounds/ethereal-growling-in-a-cave.ogg
+  assets/more_mining/sounds/haunted-space.ogg
+  assets/more_mining/sounds/horror-music.ogg
+  assets/more_mining/sounds/horror-sfx-3.ogg
+  assets/more_mining/sounds/impact-stone.ogg
+  assets/more_mining/sounds/male-breathing.ogg
+  assets/more_mining/sounds/manic-whistle.ogg
+  assets/more_mining/sounds/old-mine-ambience.ogg
+  assets/more_mining/sounds/spooky-background-atmosphere-for-games.ogg
+  assets/more_mining/sounds/stone-hitting-stone.ogg
+  assets/more_mining/sounds/waterdrops-cave-echo.ogg
+  assets/more_mining/structures/
+  assets/more_mining/structures/mine_castle.nbt
+  assets/more_mining/structures/minecastle.schem
+  assets/more_mining/textures/
+  assets/more_mining/textures/armor/
+  assets/more_mining/textures/armor/nightVision/
+  assets/more_mining/textures/armor/nightVision/night_vision_glasses.png
+  assets/more_mining/textures/block/
+  assets/more_mining/textures/block/compressed_stone.png
+  assets/more_mining/textures/block/compressed_stone_top.png
+  assets/more_mining/textures/block/deepsea_vein.png
+  assets/more_mining/textures/block/deepslate_top.png
+  assets/more_mining/textures/block/ether_vein.png
+  assets/more_mining/textures/block/infernal_iron_ore.png
+  assets/more_mining/textures/block/lithium_ore.png
+  assets/more_mining/textures/block/luminiscence_vein.png
+  assets/more_mining/textures/effects/
+  assets/more_mining/textures/effects/low_visibility_icon.pdn
+  assets/more_mining/textures/effects/low_visibility_icon.png
+  assets/more_mining/textures/entities/
+  assets/more_mining/textures/entities/dead_miner.png
+  assets/more_mining/textures/entities/deadminer.png
+  assets/more_mining/textures/entities/deep_skeleton.png
+  assets/more_mining/textures/entities/deep_skeleton1.png
+  assets/more_mining/textures/entities/mine_emperor.png
+  assets/more_mining/textures/entities/night_vision_glasses_weared.png
+  assets/more_mining/textures/entities/palette/
+  assets/more_mining/textures/entities/palette/stone_golem/
+  assets/more_mining/textures/entities/palette/stone_golem/chiseled_deepslate.png
+  assets/more_mining/textures/entities/palette/stone_golem/cobbled_deepslate.png
+  assets/more_mining/textures/entities/palette/stone_golem/cracked_deepslate_bricks.png
+  assets/more_mining/textures/entities/palette/stone_golem/cracked_deepslate_tiles.png
+  assets/more_mining/textures/entities/palette/stone_golem/deepslate.png
+  assets/more_mining/textures/entities/palette/stone_golem/deepslate_bricks.png
+  assets/more_mining/textures/entities/palette/stone_golem/deepslate_tiles.png
+  assets/more_mining/textures/entities/palette/stone_golem/deepslate_top.png
+  assets/more_mining/textures/entities/palette/stone_golem/polished_deepslate.png
+  assets/more_mining/textures/entities/palette/stone_golem/reinforced_deepslate_side.png
+  assets/more_mining/textures/entities/stone_golem_texture.png
+  assets/more_mining/textures/entity/
+  assets/more_mining/textures/entity/dead_miner/
+  assets/more_mining/textures/entity/dead_miner/dead_miner.png
+  assets/more_mining/textures/entity/deep_skeleton/
+  assets/more_mining/textures/entity/deep_skeleton/DeepSkeleton.bbmodel
+  assets/more_mining/textures/entity/deep_skeleton/deepSkeletonTexture.png
+  assets/more_mining/textures/entity/deep_skeleton/deep_skeleton.java
+  assets/more_mining/textures/entity/deep_skeleton/deep_skeleton.png
+  assets/more_mining/textures/entity/deep_skeleton/deep_skeleton1.png
+  assets/more_mining/textures/entity/deep_skeleton/skeleton.png
+  assets/more_mining/textures/item/
+  assets/more_mining/textures/item/deepsea_crystal.png
+  assets/more_mining/textures/item/drill_texture_16.png
+  assets/more_mining/textures/item/ether_shard.png
+  assets/more_mining/textures/item/infernal_iron_ingot.png
+  assets/more_mining/textures/item/lithium.png
+  assets/more_mining/textures/item/lithium_battery.png
+  assets/more_mining/textures/item/lithium_drill.png
+  assets/more_mining/textures/item/luminiscent_crystal.png
+  assets/more_mining/textures/item/mine_emperor_pickaxe.png
+  assets/more_mining/textures/item/night_vision_glasses.png
+  assets/more_mining/textures/item/quartz.png
+  assets/more_mining/textures/item/raw_infernal_iron.png
+  assets/more_mining/textures/mob_effect/
+  assets/more_mining/textures/mob_effect/low_visibility_icon.png
+  assets/more_mining/textures/mob_effect/low_vision.png
+  assets/more_mining/textures/models/
+  assets/more_mining/textures/models/armor/
+  assets/more_mining/textures/models/armor/aaa_layer_1.png
+  assets/more_mining/textures/screens/
+  assets/more_mining/textures/screens/pickaxe_upgrade_gui.png
+  data/
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/mineable/shovel.json
+  data/minecraft/tags/blocks/needs_diamond_tool.json
+  data/minecraft/tags/blocks/needs_iron_tool.json
+  data/minecraft/tags/blocks/overworld_carver_replaceables.json
+  data/more_mining/
+  data/more_mining/dimension/
+  data/more_mining/dimension/deeper_layer.json
+  data/more_mining/dimension/second_layer.json
+  data/more_mining/dimension_type/
+  data/more_mining/dimension_type/deeper_layer.json
+  data/more_mining/dimension_type/second_layer.json
+  data/more_mining/forge/
+  data/more_mining/forge/biome_modifier/
+  data/more_mining/forge/biome_modifier/dead_miner_biome_modifier.json
+  data/more_mining/forge/biome_modifier/deep_sea_vein_biome_modifier.json
+  data/more_mining/forge/biome_modifier/ether_vein_biome_modifier.json
+  data/more_mining/forge/biome_modifier/infernal_iron_ore_biome_modifier.json
+  data/more_mining/forge/biome_modifier/lithium_ore_biome_modifier.json
+  data/more_mining/forge/biome_modifier/luminiscence_vein_biome_modifier.json
+  data/more_mining/forge/biome_modifier/stone_golem_biome_modifier.json
+  data/more_mining/loot_tables/
+  data/more_mining/loot_tables/blocks/
+  data/more_mining/loot_tables/blocks/compressed_stone.json
+  data/more_mining/loot_tables/blocks/deep_sea_vein.json
+  data/more_mining/loot_tables/blocks/ether_vein.json
+  data/more_mining/loot_tables/blocks/infernal_iron_ore.json
+  data/more_mining/loot_tables/blocks/lithium_ore.json
+  data/more_mining/loot_tables/blocks/luminiscence_vein.json
+  data/more_mining/recipes/
+  data/more_mining/recipes/infernal_iron_ingot.json
+  data/more_mining/recipes/lithium_drill_c.json
+  data/more_mining/recipes/night_vision_glasses_r.json
+  data/more_mining/structures/
+  data/more_mining/structures/down_mine.nbt
+  data/more_mining/structures/mine_castle.nbt
+  data/more_mining/structures/miners_den.nbt
+  data/more_mining/tags/
+  data/more_mining/tags/items/
+  data/more_mining/tags/items/tag.json
+  data/more_mining/worldgen/
+  data/more_mining/worldgen/biome/
+  data/more_mining/worldgen/biome/deeper_layer.json
+  data/more_mining/worldgen/biome/deeper_layer_b.json
+  data/more_mining/worldgen/configured_feature/
+  data/more_mining/worldgen/configured_feature/deep_sea_vein.json
+  data/more_mining/worldgen/configured_feature/ether_vein.json
+  data/more_mining/worldgen/configured_feature/infernal_iron_ore.json
+  data/more_mining/worldgen/configured_feature/lithium_ore.json
+  data/more_mining/worldgen/configured_feature/luminiscence_vein.json
+  data/more_mining/worldgen/placed_feature/
+  data/more_mining/worldgen/placed_feature/deep_sea_vein.json
+  data/more_mining/worldgen/placed_feature/ether_vein.json
+  data/more_mining/worldgen/placed_feature/infernal_iron_ore.json
+  data/more_mining/worldgen/placed_feature/lithium_ore.json
+  data/more_mining/worldgen/placed_feature/luminiscence_vein.json
+  data/more_mining/worldgen/structure/
+  data/more_mining/worldgen/structure/down_mine.json
+  data/more_mining/worldgen/structure/mine_empire.json
+  data/more_mining/worldgen/structure/miners_den.json
+  data/more_mining/worldgen/structure_set/
+  data/more_mining/worldgen/structure_set/down_mine.json
+  data/more_mining/worldgen/structure_set/mine_empire.json
+  data/more_mining/worldgen/structure_set/miners_den.json
+  data/more_mining/worldgen/template_pool/
+  data/more_mining/worldgen/template_pool/down_mine.json
+  data/more_mining/worldgen/template_pool/mine_empire.json
+  data/more_mining/worldgen/template_pool/miners_den.json
+  data/terralith/
+  data/terralith/tags/
+  data/terralith/tags/worldgen/
+  data/terralith/tags/worldgen/biome/
+  data/terralith/tags/worldgen/biome/testing.json
+  mine/
+  mine/moremining/
+  mine/moremining/MoreMiningMod.class
+  mine/moremining/block/
+  mine/moremining/block/CompressedStoneBlock.class
+  mine/moremining/block/DeepSeaVeinBlock.class
+  mine/moremining/block/EtherVeinBlock.class
+  mine/moremining/block/FirstLayerPortalBlock.class
+  mine/moremining/block/InfernalIronOreBlock.class
+  mine/moremining/block/LithiumOreBlock.class
+  mine/moremining/block/LuminiscenceVeinBlock.class
+  mine/moremining/block/SecondLayerPortalBlock.class
+  mine/moremining/client/
+  mine/moremining/client/gui/
+  mine/moremining/client/gui/MineEmperorPickaxeScreen.class
+  mine/moremining/client/gui/PickaxeUpgradeGUIScreen.class
+  mine/moremining/client/model/
+  mine/moremining/client/model/ModelDS.class
+  mine/moremining/client/model/animations/
+  mine/moremining/client/model/animations/stoneGolemAnimation.class
+  mine/moremining/client/renderer/
+  mine/moremining/client/renderer/DeadMinerRenderer.class
+  mine/moremining/client/renderer/DeepSkeletonRenderer.class
+  mine/moremining/client/renderer/StoneGolemRenderer.class
+  mine/moremining/commands/
+  mine/moremining/commands/MoreMiningCommands.class
+  mine/moremining/effect/
+  mine/moremining/effect/LowVisionEffect.class
+  mine/moremining/entity/
+  mine/moremining/entity/DeadMinerEntity$1.class
+  mine/moremining/entity/DeadMinerEntity.class
+  mine/moremining/entity/DeepSkeletonEntity$1.class
+  mine/moremining/entity/DeepSkeletonEntity.class
+  mine/moremining/entity/DeepSkeletonEntityProjectile.class
+  mine/moremining/entity/StoneGolemEntity$1.class
+  mine/moremining/entity/StoneGolemEntity.class
+  mine/moremining/entity/ThrowablePickaxeEntity.class
+  mine/moremining/entity/model/
+  mine/moremining/entity/model/StoneGolemModel.class
+  mine/moremining/event/
+  mine/moremining/event/FogRenderer.class
+  mine/moremining/event/MiningEventHandler.class
+  mine/moremining/init/
+  mine/moremining/init/EntityAnimationFactory.class
+  mine/moremining/init/ItemAnimationFactory.class
+  mine/moremining/init/MoreMiningMenus.class
+  mine/moremining/init/MoreMiningModBlocks.class
+  mine/moremining/init/MoreMiningModEntities.class
+  mine/moremining/init/MoreMiningModEntityRenderers.class
+  mine/moremining/init/MoreMiningModItems.class
+  mine/moremining/init/MoreMiningModMenus.class
+  mine/moremining/init/MoreMiningModModels.class
+  mine/moremining/init/MoreMiningModScreens.class
+  mine/moremining/init/MoreMiningModSounds.class
+  mine/moremining/init/MoreMiningModTabs.class
+  mine/moremining/item/
+  mine/moremining/item/DeepSeaCrystalItem.class
+  mine/moremining/item/EtherShardItem.class
+  mine/moremining/item/FirstLayerItem.class
+  mine/moremining/item/InfernalIronItem.class
+  mine/moremining/item/LithiumBatteryItem.class
+  mine/moremining/item/LithiumDrillItem$1.class
+  mine/moremining/item/LithiumDrillItem.class
+  mine/moremining/item/LithiumItem.class
+  mine/moremining/item/LuminiscentCrystalItem.class
+  mine/moremining/item/MineEmperorPickaxe$MineEmperorPickaxeForgeBusEvents.class
+  mine/moremining/item/MineEmperorPickaxe.class
+  mine/moremining/item/NightVisionGlassesItem$1.class
+  mine/moremining/item/NightVisionGlassesItem$Helmet.class
+  mine/moremining/item/NightVisionGlassesItem.class
+  mine/moremining/item/RawInfernalIronItem.class
+  mine/moremining/item/SecondLayerItem.class
+  mine/moremining/item/model/
+  mine/moremining/item/model/LithiumDrillItemModel.class
+  mine/moremining/item/renderer/
+  mine/moremining/item/renderer/LithiumDrillItemRenderer.class
+  mine/moremining/menu/
+  mine/moremining/menu/MineEmperorPickaxeMenu.class
+  mine/moremining/network/
+  mine/moremining/network/MoreMiningModVariables$1.class
+  mine/moremining/network/MoreMiningModVariables$EventBusVariableHandlers.class
+  mine/moremining/network/MoreMiningModVariables$PlayerVariables.class
+  mine/moremining/network/MoreMiningModVariables$PlayerVariablesProvider.class
+  mine/moremining/network/MoreMiningModVariables$PlayerVariablesSyncMessage.class
+  mine/moremining/network/MoreMiningModVariables.class
+  mine/moremining/procedures/
+  mine/moremining/procedures/FirstLayerCanMakePortalProcedure.class
+  mine/moremining/procedures/LithiumDrillItemInHandTickProcedure.class
+  mine/moremining/procedures/LithiumDrillRightclickedOnBlockProcedure.class
+  mine/moremining/procedures/LithiumDrillRightclickedProcedure.class
+  mine/moremining/procedures/LithiumOreBlockDestroyedByPlayerProcedure.class
+  mine/moremining/procedures/NightVisionGlassesTickEventProcedure.class
+  mine/moremining/procedures/SecondLayerLowVisionProcedure.class
+  mine/moremining/procedures/SecondLayerPlayerEntersDimensionProcedure.class
+  mine/moremining/procedures/SssssProcedure.class
+  mine/moremining/procedures/StoneGolemAttackCancelProcedure.class
+  mine/moremining/procedures/StoneGolemAttackDetectionProcedure.class
+  mine/moremining/procedures/StoneGolemAttackProcedure.class
+  mine/moremining/procedures/StoneGolemOnEntityTickUpdateProcedure.class
+  mine/moremining/utils/
+  mine/moremining/utils/AnimUtils.class
+  mine/moremining/world/
+  mine/moremining/world/dimension/
+  mine/moremining/world/dimension/FirstLayerDimension$FirstLayerSpecialEffectsHandler$1.class
+  mine/moremining/world/dimension/FirstLayerDimension$FirstLayerSpecialEffectsHandler.class
+  mine/moremining/world/dimension/FirstLayerDimension.class
+  mine/moremining/world/dimension/SecondLayerDimension$SecondLayerSpecialEffectsHandler$1.class
+  mine/moremining/world/dimension/SecondLayerDimension$SecondLayerSpecialEffectsHandler.class
+  mine/moremining/world/dimension/SecondLayerDimension.class
+  mine/moremining/world/gen/
+  mine/moremining/world/gen/CustomChunkGenerator.class
+  mine/moremining/world/gen/TerrainNoiseGenerator.class
+  mine/moremining/world/inventory/
+  mine/moremining/world/inventory/PickaxeUpgradeGUIMenu.class
+  mine/moremining/world/teleporter/
+  mine/moremining/world/teleporter/FirstLayerPortalShape.class
+  mine/moremining/world/teleporter/FirstLayerTeleporter.class
+  mine/moremining/world/teleporter/SecondLayerPortalShape.class
+  mine/moremining/world/teleporter/SecondLayerTeleporter.class
+  pack.mcmeta

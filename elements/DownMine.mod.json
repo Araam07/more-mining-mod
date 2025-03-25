@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "down_mine",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FirstLayerB"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 19,
+    "startHeightMax": 40,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

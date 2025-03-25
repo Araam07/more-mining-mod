@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "more_mining:noxium_ore",
+    "more_mining:compressed_stone",
+    "more_mining:lithium_ore",
+    "more_mining:luminiscence_vein",
+    "more_mining:ether_vein",
+    "more_mining:infernal_iron_ore"
+  ]
+}

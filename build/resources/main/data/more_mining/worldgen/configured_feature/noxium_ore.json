@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "more_mining:noxium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "more_mining:compressed_stone"
+          }
+        },
+        "state": {
+          "Name": "more_mining:noxium_ore"
+        }
+      }
+    ]
+  }
+}

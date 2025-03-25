@@ -1,0 +1,85 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.drill.digging": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"teeth1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 90]
+						},
+						"0.5": {
+							"vector": [0, 0, 180]
+						},
+						"0.75": {
+							"vector": [0, 0, 270]
+						},
+						"1.0": {
+							"vector": [0, 0, 360]
+						}
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"teeth2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, -90]
+						},
+						"0.5": {
+							"vector": [0, 0, -180]
+						},
+						"0.75": {
+							"vector": [0, 0, -270]
+						},
+						"1.0": {
+							"vector": [0, 0, -357.5]
+						}
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"button": {
+					"position": {
+						"vector": [0, -0.7, -2]
+					}
+				},
+				"hand": {
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"rightArm": {
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"leftArm": {
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				}
+			}
+		},
+		"animation.drill.idle": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

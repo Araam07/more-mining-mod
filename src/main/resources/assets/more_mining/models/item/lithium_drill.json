@@ -1,0 +1,6 @@
+{
+  "parent": "more_mining:displaysettings/lithium_drill.display",
+  "textures": {
+    "layer0": "more_mining:item/drill_texture_16"
+  }
+}

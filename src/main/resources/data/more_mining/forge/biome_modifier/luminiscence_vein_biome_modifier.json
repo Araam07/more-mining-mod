@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "more_mining:deeper_layer_b",
+  "features": "more_mining:luminiscence_vein",
+  "step": "underground_ores"
+}

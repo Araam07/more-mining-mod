@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "more_mining:deeper_layer_b",
+  "spawners": {
+    "type": "more_mining:stone_golem",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

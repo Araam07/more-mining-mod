@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "more_mining:mine_empire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 2500,
+    "separation": 2499,
+    "salt": 362475687
+  }
+}

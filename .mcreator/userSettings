@@ -1,0 +1,16 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, More Mining]",
+      "[, More Mining, Resources (Gradle)]",
+      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets]",
+      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining]",
+      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models]",
+      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models\\item]"
+    ]
+  }
+}

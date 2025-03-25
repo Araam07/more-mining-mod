@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "crimson_forest",
+    "nether_wastes"
+  ],
+  "features": "more_mining:infernal_iron_ore",
+  "step": "underground_ores"
+}

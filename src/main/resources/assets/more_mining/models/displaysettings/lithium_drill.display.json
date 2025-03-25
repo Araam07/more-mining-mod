@@ -1,0 +1,78 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    40,
+    36
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        93,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4.25,
+        -3.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        89,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4.25,
+        -3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        16,
+        17,
+        7
+      ],
+      "translation": [
+        -2.75,
+        0,
+        -1.25
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "gui": {
+      "rotation": [
+        50,
+        -39,
+        13
+      ],
+      "translation": [
+        0.25,
+        -4,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -3,
+        89,
+        0
+      ],
+      "translation": [
+        -1.25,
+        -4,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "particle": "more_mining:item/drill_texture_16"
+  }
+}

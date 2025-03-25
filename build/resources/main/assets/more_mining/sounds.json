@@ -1,0 +1,127 @@
+{
+  "deep-cave": {
+    "sounds": [
+      {
+        "name": "more_mining:deep-cave",
+        "stream": false
+      }
+    ]
+  },
+  "cave-taps": {
+    "sounds": [
+      {
+        "name": "more_mining:cave-taps",
+        "stream": false
+      }
+    ]
+  },
+  "waterdrops-cave-echo": {
+    "sounds": [
+      {
+        "name": "more_mining:waterdrops-cave-echo",
+        "stream": false
+      }
+    ]
+  },
+  "old-mine-ambience": {
+    "sounds": [
+      {
+        "name": "more_mining:old-mine-ambience",
+        "stream": false
+      }
+    ]
+  },
+  "sinister-ambient": {
+    "subtitle": "subtitles.sinister-ambient",
+    "sounds": [
+      {
+        "name": "more_mining:spooky-background-atmosphere-for-games",
+        "stream": false
+      },
+      {
+        "name": "more_mining:haunted-space",
+        "stream": false
+      },
+      {
+        "name": "more_mining:horror-music",
+        "stream": false
+      }
+    ]
+  },
+  "sinister-piano": {
+    "sounds": [
+      {
+        "name": "more_mining:dark-loops-000-piano-efect-80-bpm",
+        "stream": true
+      },
+      {
+        "name": "more_mining:dark-loops-042-piano-80-bpm",
+        "stream": true
+      }
+    ]
+  },
+  "sinister-sounds": {
+    "sounds": [
+      {
+        "name": "more_mining:ethereal-growling-in-a-cave",
+        "stream": false
+      },
+      {
+        "name": "more_mining:horror-sfx-3",
+        "stream": false
+      },
+      {
+        "name": "more_mining:male-breathing",
+        "stream": false
+      },
+      {
+        "name": "more_mining:manic-whistle",
+        "stream": false
+      }
+    ]
+  },
+  "stone-things": {
+    "sounds": [
+      {
+        "name": "more_mining:broke",
+        "stream": false
+      },
+      {
+        "name": "more_mining:stone-hitting-stone",
+        "stream": false
+      },
+      {
+        "name": "more_mining:impact-stone",
+        "stream": false
+      }
+    ]
+  },
+  "seeker-step": {
+    "sounds": [
+      {
+        "name": "more_mining:bones-breaking",
+        "stream": false
+      }
+    ]
+  },
+  "boo-and-laugh": {
+    "sounds": [
+      {
+        "name": "more_mining:boo-and-laugh",
+        "stream": false
+      }
+    ]
+  },
+  "seeker-sounds": {
+    "sounds": [
+      {
+        "name": "more_mining:manic-whistle",
+        "stream": false
+      },
+      {
+        "name": "more_mining:whisper-fluisteren",
+        "stream": false
+      }
+    ]
+  }
+}

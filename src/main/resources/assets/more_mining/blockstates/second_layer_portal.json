@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "more_mining:block/second_layer_portal_ew"
+    },
+    "axis=x": {
+      "model": "more_mining:block/second_layer_portal_ns"
+    }
+  }
+}

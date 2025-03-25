@@ -1,0 +1,93 @@
+{
+  "has_precipitation": false,
+  "temperature": -0.1,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "more_mining:old-mine-ambience",
+    "mood_sound": {
+      "sound": "more_mining:deep-cave",
+      "tick_delay": 30000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "more_mining:cave-taps",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "music.overworld.deep_dark",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -10916529,
+    "grass_color": -11571648,
+    "sky_color": -3355444,
+    "fog_color": -10066330,
+    "water_color": -16772547,
+    "water_fog_color": -14143940
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "bat",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "more_mining:dead_miner",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

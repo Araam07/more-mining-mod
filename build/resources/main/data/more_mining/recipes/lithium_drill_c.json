@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " aa",
+    "bca",
+    "db "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "more_mining:lithium_battery"
+    },
+    "d": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "more_mining:luminiscent_crystal",
+    "count": 1
+  }
+}
