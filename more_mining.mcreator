@@ -1360,6 +1360,32 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "CraftTeddyBear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_teddy_bear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/recipes/craft_teddy_bear.json"
+        ]
+      },
+      "path": "~/recipies"
+    },
+    {
+      "name": "CompressedStoneDiamondDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_stone_diamond_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mining/loot_tables/blocks/compressed_stone_diamond_ore.json"
+        ]
+      },
+      "path": "~/lootTables"
     }
   ],
   "variable_elements": [
@@ -1543,13 +1569,13 @@
       "item.more_mining.teddy_bear": "Teddy Bear",
       "item.more_mining.spectrumite_ingot": "Spectrumite Ingot",
       "subtitles.sinister-ambient": "Sinister ambient",
-      "subtitles.cave-taps": "",
       "item.more_mining.lithium_battery.description_0": "An item that stores energy and is used to power tools and devices.",
+      "subtitles.cave-taps": "",
       "subtitles.seeker-sounds": "",
       "biome.more_mining.deeper_layer_b": "DeeperZone",
       "block.more_mining.noxium_ore": "Noxium Ore",
-      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
       "item.more_mining.lithium_battery": "Lithium Battery",
+      "item.more_mining.noxium_pickaxe": "Noxium Pickaxe",
       "item.more_mining.teddy_bear.description_0": "Calms You",
       "item.more_mining.mine_emperor_pickaxe": "§1Mine Emperor §rPickaxe",
       "item.more_mining.ether_shard": "Ether Shard",
@@ -1647,6 +1673,10 @@
       },
       {
         "name": "secondLayer",
+        "children": []
+      },
+      {
+        "name": "lootTables",
         "children": []
       }
     ]

@@ -1,10 +1,18 @@
 package mine.moremining.procedures;
 
+import mine.moremining.MoreMiningMod;
+import net.minecraft.core.Holder;
+import net.minecraft.util.Mth;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundSource;
+import java.util.Arrays;
+import java.util.List;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
@@ -26,13 +34,56 @@ import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
 public class SecondLayerLowVisionProcedure {
+
     // Sistema de sanidad
     private static float mentalHealth = 100.0f;
     private static int mentalHealthCooldown = 0;
 
+    //Arrays de sonidos
+    private static final List<SoundEvent> LOW_SANITY_SOUNDS = Arrays.asList(
+            SoundEvents.AMBIENT_SOUL_SAND_VALLEY_MOOD.get(),
+            SoundEvents.AMBIENT_BASALT_DELTAS_MOOD.get(),
+            SoundEvents.SOUL_ESCAPE,
+            SoundEvents.ENDERMAN_SCREAM,
+            SoundEvents.AMBIENT_CAVE.get()
+    );
+
+    private static final List<SoundEvent> CRITICAL_SANITY_SOUNDS = Arrays.asList(
+            SoundEvents.WARDEN_NEARBY_CLOSE,
+            SoundEvents.WARDEN_HEARTBEAT,
+            SoundEvents.SCULK_SHRIEKER_SHRIEK,
+            SoundEvents.ELDER_GUARDIAN_CURSE
+    );
+
+    private static SoundEvent resolveSoundEvent(Object sound) {
+        return sound instanceof SoundEvent ? (SoundEvent) sound : ((Holder<SoundEvent>) sound).value();
+    }
+
+    private static void playRandomSound(Player player, List<SoundEvent> sounds, float volume, float pitchVariation, float chance) {
+        if (!player.level().isClientSide() && player.level().getRandom().nextFloat() < chance) {
+            SoundEvent sound = sounds.get(player.level().getRandom().nextInt(sounds.size()));
+            float variedPitch = pitchVariation + (player.level().getRandom().nextFloat() * 0.4f - 0.2f);
+
+            // Sonidos "falsos" que parecen venir de diferentes direcciones
+            double xOffset = player.level().getRandom().nextDouble() * 10 - 5;
+            double zOffset = player.level().getRandom().nextDouble() * 10 - 5;
+
+            player.level().playSound(
+                    null,
+                    player.getX() + xOffset,
+                    player.getY(),
+                    player.getZ() + zOffset,
+                    sound,
+                    SoundSource.AMBIENT,
+                    volume,
+                    variedPitch
+            );
+        }
+    }
+
     // Configuración
     private static final float DIMENSION_DECAY = 0.5f;  // Pérdida en segunda capa
-    private static final float ARMOR_PENALTY = 1.5f;    // Sanidad perdida por daño con armadura
+    private static final float ARMOR_PENALTY = 1.0f;    // Sanidad perdida por daño con armadura
 
     /* === Eventos === */
     @SubscribeEvent
@@ -117,10 +168,15 @@ public class SecondLayerLowVisionProcedure {
     private static void applyGlobalSanityEffects(Player player) {
         if (mentalHealth <= 20.0f) {
             applyCriticalEffects(player);
+            playRandomSound(player, CRITICAL_SANITY_SOUNDS, 0.6f, 0.8f, 0.1f);
         } else if (mentalHealth <= 50.0f) {
             applyLowSanityEffects(player);
+            playRandomSound(player, LOW_SANITY_SOUNDS, 0.4f, 1.2f, 0.05f);
         } else if (mentalHealth <= 80.0f) {
             applyModerateEffects(player);
+            if (player.level().getRandom().nextFloat() < 0.03f) {
+                player.playSound(SoundEvents.AMBIENT_UNDERWATER_EXIT, 0.5f, 0.8f);
+            }
         }
     }
 
@@ -153,15 +209,29 @@ public class SecondLayerLowVisionProcedure {
                 player.drop(armor, true);
                 player.setItemSlot(slot, ItemStack.EMPTY);
             }
-            player.playSound(SoundEvents.ENDERMAN_SCREAM, 1.0f, 1.0f);
+
+            // Sonido aleatorio en lugar de fijo
+            playRandomSound(player, CRITICAL_SANITY_SOUNDS, 1.0f, 0.8f, 1.0f);
         }
 
         if (mentalHealth <= 0.0f && player.level().getGameTime() % 100 == 0) {
             player.hurt(player.damageSources().magic(), 1.0f);
+            // Susurro siniestro al recibir daño psicológico
+            player.playSound(SoundEvents.EVOKER_PREPARE_SUMMON, 0.8f, 0.5f);
         }
     }
 
     /* === Utilidades === */
+
+    private static Vec3 calculateOrbitPosition(Player player, double radius) {
+        float angle = player.level().random.nextFloat() * 360;
+        return new Vec3(
+                player.getX() + Mth.cos(angle * Mth.DEG_TO_RAD) * radius,
+                player.getY() + 1.5,
+                player.getZ() + Mth.sin(angle * Mth.DEG_TO_RAD) * radius
+        );
+    }
+
     private static boolean isInSecondLayer(Entity entity) {
         return entity.level().dimension() ==
                 ResourceKey.create(Registries.DIMENSION,

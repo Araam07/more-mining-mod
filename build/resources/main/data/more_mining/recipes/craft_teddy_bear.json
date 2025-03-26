@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "more_mining:noxium_ingot"
+    },
+    "b": {
+      "item": "more_mining:spectrumite_ingot"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    },
+    "d": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "more_mining:teddy_bear",
+    "count": 1
+  }
+}
