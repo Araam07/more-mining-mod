@@ -1,6 +1,8 @@
 package mine.moremining.procedures;
 
 import mine.moremining.MoreMiningMod;
+import mine.moremining.entity.SeekerEntity;
+import mine.moremining.init.MoreMiningModEntities;
 import net.minecraft.core.Holder;
 import net.minecraft.util.Mth;
 import net.minecraft.world.phys.Vec3;
@@ -111,6 +113,7 @@ public class SecondLayerLowVisionProcedure {
         if (isInSecondLayer(player)) {
             handleDimensionEffects(player);
             handleDimensionDecay(player);
+            handleSeekerSpawning(player);
         }
 
         applyGlobalSanityEffects(player);
@@ -254,5 +257,26 @@ public class SecondLayerLowVisionProcedure {
 
     public static float getMentalHealth() {
         return mentalHealth;
+    }
+
+    //Seeker Management
+    private static void handleSeekerSpawning(Player player) {
+        if (!isInSecondLayer(player) || player.level().isClientSide()) return;
+
+        // Verificar si hay Seekers cerca (32 bloques)
+        boolean seekerNearby = !player.level().getEntitiesOfClass(SeekerEntity.class,
+                player.getBoundingBox().inflate(32)).isEmpty();
+
+        // Si no hay Seekers cerca y la sanidad es baja, hay chance de spawnear uno
+        if (!seekerNearby && getMentalHealth() < 50 && player.level().getRandom().nextFloat() < 0.01f) {
+            Vec3 spawnPos = calculateOrbitPosition(player, 16 + player.level().getRandom().nextDouble() * 8);
+            SeekerEntity seeker = MoreMiningModEntities.SEEKER.get().create(player.level());
+            if (seeker != null) {
+                seeker.moveTo(spawnPos.x, spawnPos.y, spawnPos.z,
+                        player.level().getRandom().nextFloat() * 360, 0);
+                player.level().addFreshEntity(seeker);
+                seeker.playSound(SoundEvents.ENDERMAN_TELEPORT, 1.0F, 0.8F);
+            }
+        }
     }
 }

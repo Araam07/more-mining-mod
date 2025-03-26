@@ -1,5 +1,6 @@
 package mine.moremining.entity;
 
+import net.minecraft.sounds.SoundEvents;
 import software.bernie.geckolib.util.GeckoLibUtil;
 import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.core.animation.RawAnimation;
@@ -35,6 +36,9 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 
 import mine.moremining.init.MoreMiningModEntities;
 
@@ -84,7 +88,7 @@ public class SeekerEntity extends Monster implements GeoEntity {
     @Override
     protected void registerGoals() {
         super.registerGoals();
-
+        this.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(this, Player.class, true));
         // Goal personalizado para el comportamiento del Seeker
         this.goalSelector.addGoal(1, new Goal() {
             private Player targetPlayer;
@@ -235,6 +239,136 @@ public class SeekerEntity extends Monster implements GeoEntity {
     public float getEyeHeight(Pose pose) {
         // Ajusta la altura de los ojos para que coincida con la hitbox
         return 2.6F; // Altura de los ojos en bloques
+    }
+
+    // Nueva clase interna para el comportamiento de persecución
+    public static class SeekerChaseGoal extends Goal {
+        private final SeekerEntity seeker;
+        private Player targetPlayer;
+        private int cooldown = 0;
+        private boolean isScaring = false;
+        private int respawnTimer = 0;
+        private Vec3 lastKnownPosition;
+
+        public SeekerChaseGoal(SeekerEntity seeker) {
+            this.seeker = seeker;
+        }
+
+        @Override
+        public boolean canUse() {
+            this.targetPlayer = this.seeker.level().getNearestPlayer(this.seeker, 32);
+            return this.targetPlayer != null;
+        }
+
+        @Override
+        public void start() {
+            this.cooldown = 0;
+            this.isScaring = false;
+            this.respawnTimer = 0;
+            this.lastKnownPosition = this.targetPlayer.position();
+        }
+
+        @Override
+        public void stop() {
+            this.targetPlayer = null;
+            this.isScaring = false;
+            this.respawnTimer = 0;
+        }
+
+        @Override
+        public void tick() {
+            if (this.targetPlayer == null) return;
+
+            double distance = this.seeker.distanceTo(this.targetPlayer);
+            this.lastKnownPosition = this.targetPlayer.position();
+
+            // Si el jugador se aleja demasiado, preparar respawn
+            if (distance > 48 && !this.isScaring) {
+                handlePlayerTooFar();
+                return;
+            }
+
+            // Comportamiento normal de persecución
+            if (!this.isScaring && this.cooldown <= 0) {
+                if (distance > 6) {
+                    this.seeker.getNavigation().moveTo(this.targetPlayer, 1.2); // Mayor velocidad de persecución
+                } else if (distance > 3) {
+                    this.seeker.getNavigation().stop();
+                    if (isPlayerLookingAtSeeker()) {
+                        startScaring();
+                    }
+                } else {
+                    startScaring();
+                }
+            } else if (this.isScaring) {
+                handleScaringPhase();
+            } else if (this.cooldown > 0) {
+                this.cooldown--;
+            }
+        }
+
+        private void handlePlayerTooFar() {
+            this.respawnTimer++;
+
+            // Después de 5 segundos (100 ticks) sin ver al jugador, teletransportarse cerca
+            if (this.respawnTimer >= 100) {
+                Vec3 respawnPos = calculateRespawnPosition();
+                this.seeker.teleportTo(respawnPos.x, respawnPos.y, respawnPos.z);
+                this.respawnTimer = 0;
+                this.seeker.playSound(SoundEvents.ENDERMAN_TELEPORT, 1.0F, 1.0F);
+            }
+        }
+
+        private Vec3 calculateRespawnPosition() {
+            // Calcular posición 16-24 bloques del jugador en dirección aleatoria
+            double angle = this.seeker.level().random.nextDouble() * Math.PI * 2;
+            double distance = 16 + this.seeker.level().random.nextDouble() * 8;
+
+            return new Vec3(
+                    this.lastKnownPosition.x + Math.cos(angle) * distance,
+                    this.lastKnownPosition.y,
+                    this.lastKnownPosition.z + Math.sin(angle) * distance
+            );
+        }
+
+        private void startScaring() {
+            this.isScaring = true;
+            this.seeker.setAnimation("animation.seeker.scare");
+            this.cooldown = 55;
+        }
+
+        private void handleScaringPhase() {
+            if (this.cooldown > 0) {
+                this.cooldown--;
+                if (this.cooldown == 42) {
+                    this.targetPlayer.hurt(this.seeker.damageSources().mobAttack(this.seeker), 4.0F);
+                    this.seeker.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("more_mining:boo-and-laugh")), 1.0F, 1.0F);
+                }
+            } else {
+                this.isScaring = false;
+                Vec3 fleePos = calculateFleePosition();
+                this.seeker.getNavigation().moveTo(fleePos.x, fleePos.y, fleePos.z, 2.0);
+                this.cooldown = 100;
+            }
+        }
+
+        private Vec3 calculateFleePosition() {
+            // Huir en dirección opuesta al jugador
+            Vec3 awayDir = this.seeker.position().subtract(this.targetPlayer.position()).normalize();
+            return this.seeker.position().add(awayDir.x * 16, 0, awayDir.z * 16);
+        }
+
+        private boolean isPlayerLookingAtSeeker() {
+            if (this.targetPlayer == null) return false;
+            Vec3 playerLookVec = this.targetPlayer.getLookAngle();
+            Vec3 seekerToPlayerVec = this.seeker.position().subtract(this.targetPlayer.position()).normalize();
+            return playerLookVec.dot(seekerToPlayerVec) > 0.99;
+        }
+
+        @Override
+        public boolean requiresUpdateEveryTick() {
+            return true;
+        }
     }
 
     public static void init() {

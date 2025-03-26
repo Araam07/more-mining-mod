@@ -6,11 +6,10 @@
   "projectBrowserState": {
     "expandedPaths": [
       "[, More Mining]",
-      "[, More Mining, Resources (Gradle)]",
-      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets]",
-      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining]",
-      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models]",
-      "[, More Mining, Resources (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\resources\\assets\\more_mining\\models\\item]"
+      "[, More Mining, Source (Gradle)]",
+      "[, More Mining, Source (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine]",
+      "[, More Mining, Source (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine\\moremining]",
+      "[, More Mining, Source (Gradle), C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine\\moremining, C:\\Users\\adami.DESKTOP-3IM5UMR\\Documents\\MCreator\\MoreMining\\src\\main\\java\\mine\\moremining\\block]"
     ]
   }
 }
